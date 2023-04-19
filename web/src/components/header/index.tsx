@@ -17,9 +17,9 @@ export default function Header() {
       <div className="fixed w-full h-[5rem] shadow-xl z-[108]">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <ul className="hidden md:flex mr-9">
-            <li className="ml-10 ">
+            {/* <li className="ml-10 ">
               <ButtonMode />
-            </li>
+            </li> */}
             <Link href="/">
               <li className="ml-10 text-sm hover:border-b">Home</li>
             </Link>
@@ -39,9 +39,9 @@ export default function Header() {
           <div onClick={handleNav} className="md:hidden mx-5">
             <AiOutlineMenu size={25} />
           </div>
-          <div className="md:hidden mx-5">
+          {/* <div className="md:hidden mx-5">
             <ButtonMode />
-          </div>
+          </div> */}
         </div>
         <div
           className={
