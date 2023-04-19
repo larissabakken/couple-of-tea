@@ -5,10 +5,10 @@ export default function About() {
     <div className="w-full h-screen flex items-start justify-center flex-col px-10">
       <div>
         <h4 className="mb-1 text-gray-900 text-2xl">
-          <span className="inline-flex h-20 pt-2 whitespace-nowraps">
+          <span className="inline-flex h-20 pt-2 whitespace-nowraps text-[var(--secondary-color)] font-bold">
             About
           </span>
-          <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-gray-600 md:-mb-2 md:h-6 animate-cursor will-change-transform"></span>
+          <span className="box-border inline-block w-1 h-7 ml-2 -mb-1 bg-gray-600 md:-mb-1 md:h-6 animate-cursor will-change-transform"></span>
         </h4>
         <div className="md:w-[50%]">
           <p className="py-1">
