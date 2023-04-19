@@ -1,13 +1,12 @@
-import ButtonMode from "@/components/ButtonMode";
 import React from "react";
+import Hero from "./sections/hero";
+import About from "./sections/about";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <div>
-        <ButtonMode/>
-      </div>
+      <Hero />
+      <About />
     </div>
   );
 }

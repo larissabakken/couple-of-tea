@@ -10,9 +10,9 @@ export default function ButtonMode() {
     <button onClick={toggleTheme}>
       <>
         {theme === "light" ? (
-          <MdOutlineLightMode size={25} />
+          <MdOutlineLightMode size={25} color="#8fd9a8" />
         ) : (
-          <MdDarkMode size={25} />
+          <MdDarkMode size={25} color="#8fd9a8" />
         )}
       </>
     </button>
