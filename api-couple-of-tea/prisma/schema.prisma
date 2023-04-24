@@ -103,8 +103,7 @@ model SerieList {
 }
 
 model MovieList {
-  id String @id @default(cuid())
-
+  id          String      @id @default(cuid())
   name        String
   description String
   status      StatusWatch
@@ -125,7 +124,7 @@ model WishList {
   description String
   link        String?
   status      Boolean @default(true)
-  tag         Tag 
+  tag         Tag
 
   userId String
   user   User?  @relation(fields: [userId], references: [id])
