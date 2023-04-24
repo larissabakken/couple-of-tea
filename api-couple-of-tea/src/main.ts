@@ -4,6 +4,7 @@ import { AppModule } from './app.module';
 import { ValidationPipe, INestApplication } from '@nestjs/common';
 
 import { PrismaClient } from '@prisma/client';
+import { UnauthorizedInterceptor } from './middlewares/interceptors/Unauthorized.interceptor';
 
 const prisma = new PrismaClient();
 const port = process.env.PORT || 3030;
@@ -13,15 +14,13 @@ async function bootstrap() {
   app.setGlobalPrefix('api');
 
   // Interceptors
-  // app.useGlobalInterceptors(new UnauthorizedInterceptor());
+  app.useGlobalInterceptors(new UnauthorizedInterceptor());
 
   // Swagger
   function setupSwagger(app: INestApplication) {
     const config = new DocumentBuilder()
       .setTitle('COUPLE OF TEA API')
-      .setDescription(
-        'Api for the Couple of Tea application',
-      )
+      .setDescription('Api for the Couple of Tea application')
       .setVersion('1.0')
       .addBearerAuth()
       .build();
@@ -30,13 +29,13 @@ async function bootstrap() {
   }
 
   // Pipes
-  // app.useGlobalPipes(
-  //   new ValidationPipe({
-  //     transform: true,
-  //     whitelist: true,
-  //     forbidNonWhitelisted: true,
-  //   }),
-  // );
+  app.useGlobalPipes(
+    new ValidationPipe({
+      transform: true,
+      whitelist: true,
+      forbidNonWhitelisted: true,
+    }),
+  );
   setupSwagger(app);
 
   await app.listen(port, () => {
