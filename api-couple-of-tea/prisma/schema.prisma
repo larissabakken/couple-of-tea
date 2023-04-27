@@ -34,7 +34,7 @@ enum StatusWatch {
 }
 
 model User {
-  id       String @id @default(cuid())
+  id       String @id @default(uuid())
   email    String @unique
   name     String
   password String
@@ -53,7 +53,7 @@ model User {
 }
 
 model Coupon {
-  id String @id @default(cuid())
+  id String @id @default(uuid())
 
   name        String
   description String
@@ -71,7 +71,7 @@ model Coupon {
 }
 
 model AnimeList {
-  id String @id @default(cuid())
+  id String @id @default(uuid())
 
   name        String
   description String
@@ -87,7 +87,7 @@ model AnimeList {
 }
 
 model SerieList {
-  id String @id @default(cuid())
+  id String @id @default(uuid())
 
   name        String
   description String
@@ -103,7 +103,7 @@ model SerieList {
 }
 
 model MovieList {
-  id          String      @id @default(cuid())
+  id          String      @id @default(uuid())
   name        String
   description String
   status      StatusWatch
@@ -118,7 +118,7 @@ model MovieList {
 }
 
 model WishList {
-  id String @id @default(cuid())
+  id String @id @default(uuid())
 
   name        String
   description String
