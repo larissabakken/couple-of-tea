@@ -23,6 +23,9 @@ enum Tag {
   SEXUAL
   OTHER
   SPECIAL
+  BIRTHDAY
+  CHRISTMAS
+  VALENTINES
 }
 
 enum StatusWatch {

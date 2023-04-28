@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
       <div className="fixed w-full h-[5rem] shadow-xl z-[108]">
-        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[var(--background)]">
           <ul className="hidden md:flex mr-9">
             {/* <li className="ml-10 ">
               <ButtonMode />

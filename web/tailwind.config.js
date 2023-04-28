@@ -32,7 +32,6 @@ module.exports = {
           "75%": { width: "15ch" },
           "80%": { width: "16ch" },
         },
-        
       },
     },
   },

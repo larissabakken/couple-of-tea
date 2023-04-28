@@ -1,0 +1,16 @@
+{
+  "restaurantDescription": "Menukort é um restaurante localizado no coração de Helsingør, Dinamarca. Com uma atmosfera aconchegante e um menu repleto de opções deliciosas, é um ótimo lugar para desfrutar de uma refeição com familiares e amigos. Eles oferecem uma variedade de pratos, incluindo a clássica culinária dinamarquesa e favoritos internacionais. Algumas opções populares no menu incluem o famoso steak tartare, barriga de porco crocante e pratos frescos de frutos do mar. Eles também têm uma seleção de opções vegetarianas e veganas para aqueles com restrições dietéticas.",
+  "restaurantName": "Menukort",
+  "restaurantLocationLink": "https://goo.gl/maps/rZDRMa25LBeoBu2C9",
+  "restaurantLink": "https://menukort.dk/",
+  "restaurantLocation": "Sct. Anna Gade 4, 3000 Helsingør, Dinamarca",
+  "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.062472138265!2d12.61042225149657!3d56.03715598091422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465259da8a6e7b6d%3A0x44ab55b0ed88b7cc!2sMenukort!5e0!3m2!1sen!2suk!4v1651420632587!5m2!1sen!2suk",
+  "weddingLocationLink": "https://goo.gl/maps/YKuCWpBipie8Zp149",
+  "weddingLocation": "Prefeitura de Helsingør, Stengade 59, 3000 Helsingør",
+  "weddingDescription": "Prefeitura de Helsingør, sábado, 29 de julho de 2023 às 06:00 am",
+  "weddingMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.404163687238!2d12.592282615851803!3d56.03829388092079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525b9bb9a9d6e5%3A0x223044a6aeea1fa7!2sHelsing%C3%B8r%20Town%20Hall!5e0!3m2!1sen!2sus!4v1653846766361!5m2!1sen!2sus",
+  "title": "Casamento",
+  "subtitle": "Não há nada que nos deixaria mais felizes do que compartilhar este momento de amor e alegria com você. Sua presença é um presente inestimável e tornará este dia ainda mais memorável. Mesmo para aqueles que não podem estar fisicamente presentes, uma transmissão ao vivo estará disponível cinco minutos antes da cerimônia no link acima. Junte-se a nós nesta celebração do amor e compromisso.",
+  "inviteCerimony": "Por favor, junte-se a nós para a nossa cerimônia de casamento.",
+  "inviteReception": "Por favor, junte-se a nós para uma refeição comemorativa às 14h após a nossa cerimônia de casamento."
+}
