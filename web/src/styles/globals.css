@@ -63,3 +63,13 @@ iframe {
   height: 20rem;
   margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 100%;
+    height: 20rem;
+  }
+}
+  
+
+

@@ -76,7 +76,7 @@ const Invitation: React.FC<InvitationProps> = ({
             {isOpenCeremony && (
               <div className="border-t border-gray-200">
                 <dl>
-                  <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
+                  <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">
                       {language === "pt-BR"
                         ? "Local da Cerimônia"
@@ -90,7 +90,7 @@ const Invitation: React.FC<InvitationProps> = ({
                       </dd>
                     </Link>
                   </div>
-                  <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
+                  <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt className="text-sm font-medium text-gray-500">
                       {language === "pt-BR"
                         ? "Data do Casamento"
@@ -103,7 +103,7 @@ const Invitation: React.FC<InvitationProps> = ({
                     </dd>
                   </div>
 
-                  <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
+                  <div className="bg-gray-50 px-4 py-5 sm:px-6">
                     <iframe
                       src={weddingMapLink}
                     ></iframe>
@@ -138,7 +138,7 @@ const Invitation: React.FC<InvitationProps> = ({
                           ? "Restaurant Name"
                           : "Restaurant navn"}
                       </dt>
-                      <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                      <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-1">
                         {restaurantName}
                       </dd>
                     </div>
@@ -151,7 +151,7 @@ const Invitation: React.FC<InvitationProps> = ({
                           : "Restaurant beliggenhed"}
                       </dt>
                       <Link href={restaurantLocationLink}>
-                        <dd className="mt-1 text-sm text-[var(--primary-color-dark)] sm:mt-0 sm:col-span-2">
+                        <dd className="mt-1 text-sm text-[var(--primary-color-dark)] sm:mt-0 sm:col-span-1">
                           {restaurantLocation} <GiClick className="inline" />
                         </dd>
                       </Link>
@@ -177,7 +177,7 @@ const Invitation: React.FC<InvitationProps> = ({
                           : "Restaurant Link"}
                       </dt>
                       <Link href={restaurantLink}>
-                        <dd className="mt-1 text-sm text-[var(--primary-color-dark)] sm:mt-0 sm:col-span-2">
+                        <dd className="mt-1 text-sm text-[var(--primary-color-dark)] sm:mt-0 sm:col-span-1">
                           {restaurantName} website{" "}
                           <GiClick className="inline" />
                         </dd>
