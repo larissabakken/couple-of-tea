@@ -29,7 +29,7 @@ type Translation = {
 };
 
 function Wedding() {
-  const [language, setLanguage] = useState("en-US");
+  const [language, setLanguage] = useState("pt-BR");
 
   const translations: Translation = {
     "en-US": enTranslations,
@@ -63,34 +63,39 @@ function Wedding() {
       <Header />
 
       <div className="py-20 sm:py-48">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-10">
+          <p>Language:</p>
           <button onClick={() => handleLanguageChange("pt-BR")}>
-            <Image
+            <img
               src="/assets/br.svg"
-              width={100}
-              height={100}
               alt="br"
-              className="rounded-full shadow-2xl w-[4rem] mx-2 hover:scale-105"
+              className={`w-[2rem] mx-2 hover:scale-105 ${
+                language === "pt-BR" ? "" : "filter grayscale"
+              }`}
             />
           </button>
           <button onClick={() => handleLanguageChange("no-NO")}>
-            <Image
+            <img
               src="/assets/no.svg"
-              width={100}
-              height={100}
               alt="no"
-              className="rounded-full shadow-2xl w-[4rem] mx-2 hover:scale-105"
+              className={`w-[1.8rem] mx-2 hover:scale-105 ${
+                language === "no-NO" ? "" : "filter grayscale"
+              }`}
             />
           </button>
           <button onClick={() => handleLanguageChange("en-US")}>
-            <div className="rounded-full shadow-2xl w-auto h-[2rem] mx-2 hover:scale-105">
-              <Image src="/assets/us.svg" width={100} height={100} alt="us" />
-            </div>
+            <img
+              src="/assets/us.svg"
+              alt="us"
+              className={`w-[2.5rem] mx-2 hover:scale-105 ${
+                language === "en-US" ? "" : "filter grayscale"
+              }`}
+            />
           </button>
         </div>
 
         <div className="py-10">
-          <Countdown />
+          <Countdown language={language} />
         </div>
         <Invitation
           restaurantDescription={restaurantDescription}
@@ -107,6 +112,7 @@ function Wedding() {
           subtitle={subtitle}
           inviteCerimony={inviteCerimony}
           inviteReception={inviteReception}
+          language={language}
         />
       </div>
     </div>
