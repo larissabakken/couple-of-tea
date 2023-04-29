@@ -85,9 +85,9 @@ function Wedding() {
           </button>
           <button onClick={() => handleLanguageChange("en-US")}>
             <img
-              src="/assets/us.svg"
+              src="/assets/usa.png"
               alt="us"
-              className={`w-[2.5rem] mx-2 hover:scale-105 ${
+              className={`w-[2.1rem] mx-2 hover:scale-105 ${
                 language === "en-US" ? "" : "filter grayscale"
               }`}
             />
