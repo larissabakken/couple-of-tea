@@ -23,8 +23,8 @@ export default function Header() {
             <Link href="/">
               <li className="ml-10 text-sm hover:border-b">Home</li>
             </Link>
-            <Link href="/coupons">
-              <li className="ml-10 text-sm hover:border-b">Coupons</li>
+            <Link href="/wedding">
+              <li className="ml-10 text-sm hover:border-b">Wedding</li>
             </Link>
             <Link href="/memories">
               <li className="ml-10 text-sm hover:border-b">Memories</li>
@@ -70,8 +70,8 @@ export default function Header() {
                 <Link href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
-                <Link href="/coupons">
-                  <li className="py-4 text-sm">Coupons</li>
+                <Link href="/wedding">
+                  <li className="py-4 text-sm">Wedding</li>
                 </Link>
                 <Link href="/memories">
                   <li className="py-4 text-sm">Memories</li>
