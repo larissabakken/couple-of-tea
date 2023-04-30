@@ -137,3 +137,34 @@ model WishList {
 
   @@map("wish_list")
 }
+
+model WhishlistWedding {
+  id String @id @default(uuid())
+
+  name        String
+  description String
+  price       Float
+  link        String?
+  status      Boolean @default(true)
+  buyerId     String?
+
+  buyer Buyer? @relation(fields: [buyerId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("wish_list_wedding")
+}
+
+model Buyer {
+  id String @id @default(uuid())
+
+  name    String
+  email   String
+  product WhishlistWedding[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("buyer")
+}
