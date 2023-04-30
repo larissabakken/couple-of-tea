@@ -147,6 +147,7 @@ model WhishlistWedding {
   link        String?
   status      Boolean @default(true)
   buyerId     String?
+  image       String?
 
   buyer Buyer? @relation(fields: [buyerId], references: [id])
 
@@ -166,5 +167,5 @@ model Buyer {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@map("buyer")
+  @@map("buyers")
 }

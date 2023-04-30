@@ -1,13 +1,18 @@
-import React from "react";
-import Link from "next/link";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { FcAlarmClock } from "react-icons/fc";
 
-const Countdown: React.FC = () => {
+interface CountdownProps {
+  date: string;
+
+}
+
+const Countdown: React.FC<CountdownProps> = ({ date }) => {
   const [timeLeft, setTimeLeft] = useState<number>(0);
 
+  //   date example : "June 8, 2023 12:00:00 GMT+0100"
+
   useEffect(() => {
-    const countDownDate =
-      new Date("July 29, 2023 11:00:00 GMT+0100").getTime() + 60 * 60 * 1000;
+    const countDownDate = new Date(date).getTime() + 60 * 60 * 1000;
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -26,19 +31,11 @@ const Countdown: React.FC = () => {
   const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
   return (
-    <div className=" w-full h-full flex flex-col items-center justify-center pt-5">
-      <div className="text-xl mb-4 lg:text-4xl">"Countdown to our Wedding"</div>
+    <div className="text-center">
       <div className="text-xl lg:text-4xl font-bold mb-8">
-        {days}d {hours}h {minutes}m {seconds}s
+        {days}d {hours}h {minutes}m {seconds}s{" "}
+        <FcAlarmClock className="inline" />
       </div>
-      <Link
-        href="https://zoom.us/mywedding"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-[var(--primary-color-dark)] hover:bg-[var(--primary-color)] text-white font-bold py-2 px-4 rounded"
-      >
-        "Join the Live Stream"
-      </Link>
     </div>
   );
 };
