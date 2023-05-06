@@ -9,7 +9,6 @@ import {
 } from '@nestjs/common';
 import { CouponsService } from './coupons.service';
 import { CreateCouponDto } from './dto/create-coupon.dto';
-import { UpdateCouponDto } from './dto/update-coupon.dto';
 import { Public } from 'src/middlewares/auth/public.decorator';
 
 @Public()
@@ -35,6 +34,11 @@ export class CouponsController {
   @Get('user/:id')
   findByUser(@Param('id') id: string) {
     return this.couponsService.findByUser(id);
+  }
+
+  @Get('search/:search')
+  findBySearch(@Param('search') search: string) {
+    return this.couponsService.findBySearch(search);
   }
 
   @Delete(':id')

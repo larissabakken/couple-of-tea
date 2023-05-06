@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
 
 import { CreateCouponDto } from './dto/create-coupon.dto';
+import { Tag } from '@prisma/client';
 
 @Injectable()
 export class CouponsService {
@@ -28,6 +29,25 @@ export class CouponsService {
   async findByUser(userId: string) {
     return await this.prisma.coupon.findMany({
       where: { userId },
+    });
+  }
+
+  async findBySearch(search: string) {
+    return await this.prisma.coupon.findMany({
+      where: {
+        OR: [
+          { name: { contains: search } },
+          { description: { contains: search } },
+        ],
+      },
+    });
+  }
+
+  async findByTag(tag: Tag) {
+    return await this.prisma.coupon.findMany({
+      where: {
+        tag: tag,
+      },
     });
   }
 
