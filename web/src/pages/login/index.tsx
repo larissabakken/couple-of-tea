@@ -20,8 +20,8 @@ export default function Login() {
       await handleLogin(email, password);
       showToast("Successfully logged in!");
     } catch (error) {
-      console.log(error);
-      showToast(`${error}`, { type: "error" });
+      console.error(error);
+      showToast("Error logging in", { type: "error" });
     }
   }
 

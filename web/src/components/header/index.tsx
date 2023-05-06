@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import ButtonMode from "@/components/ButtonMode";
 import Image from "next/image";
 
 export default function Header() {

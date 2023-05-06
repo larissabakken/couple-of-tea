@@ -30,11 +30,11 @@ function Coupons() {
       expiry: "01/01/2021",
     },
     {
-        id: 5,
-        title: "Cupom 5",
-        description: "Descrição do cupom 3",
-        expiry: "01/01/2021",
-      },
+      id: 5,
+      title: "Cupom 5",
+      description: "Descrição do cupom 3",
+      expiry: "01/01/2021",
+    },
   ];
 
   return (

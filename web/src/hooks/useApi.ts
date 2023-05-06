@@ -1,7 +1,7 @@
-import { HttpMethod } from "../@types/hooks";
+import { HttpMethod } from "@/@types/hooks";
 import { useLoading } from "./useLoading";
-import { api } from "../lib/api";
-import { checkTokenValidity, logout } from "../lib/auth";
+import { api } from "@/lib/api";
+import { checkTokenValidity, logout } from "@/lib/auth";
 
 export function useApi() {
   const { loading: loadingWithApi, withLoading } = useLoading();
@@ -9,7 +9,7 @@ export function useApi() {
   async function request(url: string, method: HttpMethod, data?: any) {
     if (!checkTokenValidity()) {
       logout();
-      window.location.href = '/';
+      window.location.href = '/login';
       return;
     }
 

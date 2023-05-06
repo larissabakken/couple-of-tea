@@ -28,7 +28,7 @@ export function getCurrentUser(): User | null {
   return null;
 }
 
-export function checkTokenValidity(): boolean {
+export function checkTokenValidity(){
   const accessToken = localStorage.getItem("accessToken");
   if (accessToken) {
     const { exp } = jwtDecode<{ exp: number }>(accessToken);

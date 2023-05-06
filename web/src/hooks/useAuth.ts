@@ -3,13 +3,10 @@ import { useState, useEffect } from "react";
 import { useLoading } from "./useLoading";
 import { api } from "../lib/api";
 import { setAuthToken, getCurrentUser } from "../lib/auth";
-import { User, AuthResponse } from "../@types/lib";
+import { AuthState, AuthResponse } from "../@types/lib";
+import { useToast } from "./useToast";
 
-export interface AuthState {
-  user: User | null;
-  loading: boolean;
-  handleLogin: (email: string, password: string) => Promise<void>;
-}
+//TODO - make this hook return the user
 
 export function useAuth(): AuthState {
   const { loading, withLoading } = useLoading();
@@ -24,17 +21,22 @@ export function useAuth(): AuthState {
       const { data } = await withLoading(
         api.post<AuthResponse>("/auth", { email, password })
       );
-      const { accessToken, user } = data;
+      const { accessToken, userData } = data;
       localStorage.setItem("accessToken", accessToken);
       setAuthToken(accessToken);
-      setAuthState({ user, loading: false, handleLogin });
+      setAuthState({ user: userData, loading: false, handleLogin });
     } catch (error) {
+      const showToast = useToast();
+      showToast("Invalid credentials", {
+        type: "error",
+      });
       throw new Error("Invalid credentials");
     }
   }
 
   useEffect(() => {
     const user = getCurrentUser();
+    console.log(user, "user no useeffect");
     setAuthToken(localStorage.getItem("accessToken") ?? "");
     setAuthState((prevState) => ({
       ...prevState,
