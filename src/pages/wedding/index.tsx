@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import { useRequireAuth } from "@/hooks/useRequireAuth";
-
 import enTranslations from "@/locales/en.json";
 import ptTranslations from "@/locales/br.json";
 import noTranslations from "@/locales/no.json";
@@ -10,11 +8,8 @@ import Header from "@/components/header";
 import Countdown from "@/components/countdownWedding";
 import Invitation from "@/components/invitation";
 import { Translation } from "@/@types/pages";
-import { useAuth } from "@/hooks/useAuth";
 
 function Wedding() {
-  const data = useAuth();
-  console.log(data);
   const [language, setLanguage] = useState("pt-BR");
 
   const translations: Translation = {
