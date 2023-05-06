@@ -23,7 +23,7 @@ export function useAuth(): AuthState {
         api.post<AuthResponse>("/auth", { email, password })
       );
       const { accessToken, userData } = data;
-      localStorage.setItem("accessToken", accessToken);
+      localStorage?.setItem("accessToken", accessToken);
       setAuthToken(accessToken);
       setAuthState({ user: userData, loading: false, handleLogin });
     } catch (error) {
@@ -37,7 +37,7 @@ export function useAuth(): AuthState {
   useEffect(() => {
     const user = getCurrentUser();
     console.log(user, "user no useeffect");
-    setAuthToken(localStorage.getItem("accessToken") ?? "");
+    setAuthToken(localStorage?.getItem("accessToken") ?? "");
     setAuthState((prevState) => ({
       ...prevState,
       user,
