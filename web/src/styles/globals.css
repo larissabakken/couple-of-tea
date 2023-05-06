@@ -9,8 +9,8 @@
   --background-end-rgb: 255, 255, 255;
   --primary-color: #8fd9a8;
   --primary-color-dark: #6ec484;
-  --secondary-color: #b380ca;
-  --secondary-color-dark: #9b5fb0;
+  --secondary-color: #e96eab;
+  --secondary-color-dark: rgb(172, 74, 131);
   --error: #ff4d4d;
   --text-color: #2a2a2a;
 }
