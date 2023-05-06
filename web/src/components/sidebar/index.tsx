@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { RiCoupon3Line, RiHomeHeartLine, RiMenuFill } from "react-icons/ri";
 
-const Sidebar = () => {
+export default function Sidebar() {
   return (
     <>
       {/* Barra lateral */}
@@ -10,7 +10,7 @@ const Sidebar = () => {
         <div className="p-4">
           <h2 className="text-2xl font-bold mb-4">
             <RiMenuFill className="inline mr-2" />
-             Menu
+            Menu
           </h2>
           <ul className="text-lg">
             <li className="my-2">
@@ -32,6 +32,4 @@ const Sidebar = () => {
       </aside>
     </>
   );
-};
-
-export default Sidebar;
+}

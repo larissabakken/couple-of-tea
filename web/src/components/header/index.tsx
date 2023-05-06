@@ -39,9 +39,6 @@ export default function Header() {
           <div onClick={handleNav} className="md:hidden mx-5">
             <AiOutlineMenu size={25} />
           </div>
-          {/* <div className="md:hidden mx-5">
-            <ButtonMode />
-          </div> */}
         </div>
         <div
           className={

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
+import { RiLoginCircleLine } from "react-icons/ri";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -18,13 +19,12 @@ export default function Hero() {
       <div className="p-2">
         <Image src="/assets/web.png" width={300} height={300} alt="logo" />
       </div>
-      {/* <div className="p-2">
-        <BsFillArrowDownCircleFill
-          size={50}
-          color="#b380ca"
-          className="animate-bounce"
-        />
-      </div> */}
+      <div className="p-2">
+        <p>
+          If you are my wife, a special suprise for you{" "}
+          <Link className="text-[var(--secondary-color)] hover:text-[var(--secondary-color-dark)]" href="/login">here <RiLoginCircleLine className="inline mx-2"/> </Link>
+        </p>
+      </div>
     </div>
   );
 }
