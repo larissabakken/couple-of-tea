@@ -9,6 +9,7 @@ import { useToast } from "./useToast";
 //TODO - make this hook return the user
 
 export function useAuth(): AuthState {
+  const showToast = useToast();
   const { loading, withLoading } = useLoading();
   const [authState, setAuthState] = useState<AuthState>({
     user: null,
@@ -26,7 +27,6 @@ export function useAuth(): AuthState {
       setAuthToken(accessToken);
       setAuthState({ user: userData, loading: false, handleLogin });
     } catch (error) {
-      const showToast = useToast();
       showToast("Invalid credentials", {
         type: "error",
       });
