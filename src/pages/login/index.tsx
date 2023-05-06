@@ -21,7 +21,7 @@ export default function Login() {
     try {
       await handleLogin(email, password);
       showToast("Successfully logged in!");
-      router.push(`/app/${email}/coupons`);
+      router.push(`/app/coupons`);
     } catch (error) {
       console.error(error);
       showToast("Error logging in", { type: "error" });
