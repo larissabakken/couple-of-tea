@@ -10,7 +10,9 @@ const prisma = new PrismaClient();
 const port = process.env.PORT || 3030;
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { cors: true });
+  const app = await NestFactory.create(AppModule, {
+    cors: { origin: true, credentials: true },
+  });
   app.setGlobalPrefix('api');
 
   // Interceptors

@@ -1,11 +1,30 @@
 import React from "react";
-import Header from "@/components/header";
 import Image from "next/image";
 
+import { useAuth } from "@/hooks/useAuth";
+import { useToast } from "@/hooks/useToast";
+
+import Header from "@/components/header";
+
+import { AiOutlineReload } from "react-icons/ai";
+
 export default function Login() {
-  async function handleSubmit(params: any) {
-    console.log(params);
+  const { handleLogin, loading } = useAuth();
+  const showToast = useToast();
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const email = event.currentTarget.email.value;
+    const password = event.currentTarget.password.value;
+    try {
+      await handleLogin(email, password);
+      showToast("Successfully logged in!");
+    } catch (error) {
+      console.log(error);
+      showToast(`${error}`, { type: "error" });
+    }
   }
+
   return (
     <>
       <div>
@@ -28,7 +47,7 @@ export default function Login() {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" action="#" method="POST">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="email"
@@ -73,9 +92,12 @@ export default function Login() {
               <button
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-[var(--primary-color-dark)] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[var(--primary-color)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                onClick={handleSubmit}
               >
-                Sign in
+                {loading ? (
+                  <AiOutlineReload className="animate-spin" />
+                ) : (
+                  "Sign in"
+                )}
               </button>
             </div>
           </form>
