@@ -37,7 +37,6 @@ export default function Coupons() {
     }
   };
 
-
   return (
     <div>
       <Header />
@@ -47,9 +46,17 @@ export default function Coupons() {
         </div>
       )}
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
-        <CouponsCard coupons={coupons} onUseCoupon={handleUseCoupon}/>
+        <CouponsCard coupons={coupons} onUseCoupon={handleUseCoupon} />
       </div>
       <Footer />
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  return {
+    props: {
+      data: "This is server-side rendered data",
+    },
+  };
 }
