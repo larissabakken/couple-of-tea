@@ -17,9 +17,29 @@ export default function Shelf() {
       imageSrc: 'https://m.media-amazon.com/images/I/81uqvAUrHkL._AC_SL1500_.jpghttps://m.media-amazon.com/images/I/81uqvAUrHkL._AC_SL1500_.jpg',
       imageAlt: "Tv 55' smart",
       price: '$35',
-      color: 'Tv 55 smart',
     },
-    // More products...
+    {
+      "nameNOK": "Dørmatte",
+      "nameBRL":  "tapete de porta",
+      "descriptionNOK": "Dørmatte, mørk blå, 35x55 cm",
+      "descriptionBRL": "Tapete de porta, azul escuro, 35x55 cm",
+      "priceNOK": 12,
+      "priceBRL": 5.50,
+      "quantity": 5,
+      "link": "https://www.ikea.com/no/no/p/kristrup-dormatte-mork-bla-90392452/",
+      "image": "https://www.ikea.com/no/no/images/products/kristrup-dormatte-mork-bla__0892322_pe619701_s5.jpg?f=l"
+    },
+    {
+      "nameNOK": "Skittentøykurv",
+      "nameBRL":  "cesto de roupa suja",
+      "descriptionNOK": "Skittentøykurv, hvit, 70 l",
+      "descriptionBRL": "Cesto de roupa suja, branco, 70 litros",
+      "priceNOK": 89,
+      "priceBRL": 41,
+      "quantity": 4,
+      "link": "https://www.ikea.com/no/no/p/jaell-skittentoykurv-hvit-70118968/",
+      "image": "https://www.ikea.com/no/no/images/products/jaell-skittentoykurv-hvit__0612577_ph136104_s5.jpg?f=l"
+    },
   ]
   return (
     <div>
