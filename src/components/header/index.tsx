@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from 'react'
+import Link from 'next/link'
 
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import Image from "next/image";
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+import Image from 'next/image'
 
 export default function Header() {
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(true)
 
   const handleNav = () => {
-    setNav(!nav);
-  };
+    setNav(!nav)
+  }
 
   return (
     <>
-      <div className="fixed w-full h-[5rem] shadow-xl z-[108]">
+      <div className="w-full h-[5rem] shadow-xl z-[108]">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[var(--background)]">
           <ul className="hidden md:flex mr-9">
             {/* <li className="ml-10 ">
@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           </ul>
           <div className="mx-4">
-            <Image src='/assets/web.png' width={100} height={100} alt="logo"/>
+            <Image src="/assets/web.png" width={100} height={100} alt="logo" />
           </div>
           <div onClick={handleNav} className="md:hidden mx-5">
             <AiOutlineMenu size={25} />
@@ -42,15 +42,15 @@ export default function Header() {
         <div
           className={
             !nav
-              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50"
-              : ""
+              ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50'
+              : ''
           }
         >
           <div
             className={
               !nav
-                ? "md:hidden fixed left-0 top-0 w-[75%] sm:w[60%] md:w[45%] h-screen p-10 ease-in duration-500 bg-[var(--background)]"
-                : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+                ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w[60%] md:w[45%] h-screen p-10 ease-in duration-500 bg-[var(--background)]'
+                : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
             }
           >
             <div className="flex w-full">
@@ -81,5 +81,5 @@ export default function Header() {
         </div>
       </div>
     </>
-  );
+  )
 }
