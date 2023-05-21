@@ -77,7 +77,7 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute -left-32 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {wedding.map((item) => (
                     <div
@@ -103,11 +103,6 @@ export default function Example() {
                     </div>
                   ))}
                 </div>
-                {/*<div className="grid grid-cols-1 divide-x divide-gray-900/5 bg-[var(--seconday-color-dark)]">*/}
-                {/*  <p className="flex items-center justify-center p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">*/}
-                {/*    <Countdown language={'en'} />*/}
-                {/*  </p>*/}
-                {/*</div>*/}
               </Popover.Panel>
             </Transition>
           </Popover>
@@ -154,7 +149,7 @@ export default function Example() {
             </button>
           </div>
           <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-[var(--seconday-color-dark)]0/10">
+            <div className="-my-6 divide-y divide-[var(--seconday-color-dark)]/10">
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
