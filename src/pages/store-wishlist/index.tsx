@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from '@/components/header'
 import Shelf from '@/components/shelf'
-import Footer from '@/components/footer'
 import Pagination from '@/components/pagination'
 export default function StoreWishlist() {
   const handlePageChange = (page: number) => {
@@ -9,17 +7,12 @@ export default function StoreWishlist() {
   }
   return (
     <div>
-      <Header />
-      <div>
-        <Shelf />
-        <Pagination
-          currentPage={3}
-          totalPages={5}
-          onPageChange={handlePageChange}
-        />
-      </div>
-
-      <Footer />
+      <Shelf />
+      <Pagination
+        currentPage={3}
+        totalPages={5}
+        onPageChange={handlePageChange}
+      />
     </div>
   )
 }

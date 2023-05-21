@@ -1,39 +1,33 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
-import { useAuth } from "@/hooks/useAuth";
-import { useToast } from "@/hooks/useToast";
-import { useRouter } from "next/router";
+import { useAuth } from '@/hooks/useAuth'
+import { useToast } from '@/hooks/useToast'
+import { useRouter } from 'next/router'
 
-import Header from "@/components/header";
-
-import { AiOutlineReload } from "react-icons/ai";
+import { AiOutlineReload } from 'react-icons/ai'
 
 export default function Login() {
-  const { handleLogin, loading, user } = useAuth();
-  const showToast = useToast();
-  const router = useRouter();
+  const { handleLogin, loading, user } = useAuth()
+  const showToast = useToast()
+  const router = useRouter()
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const email = event.currentTarget.email.value;
-    const password = event.currentTarget.password.value;
+    event.preventDefault()
+    const email = event.currentTarget.email.value
+    const password = event.currentTarget.password.value
     try {
-      await handleLogin(email, password);
-      showToast("Successfully logged in!");
-      router.push(`/coupons`);
+      await handleLogin(email, password)
+      showToast('Successfully logged in!')
+      router.push(`/coupons`)
     } catch (error) {
-      console.error(error);
-      showToast("Error logging in", { type: "error" });
+      console.error(error)
+      showToast('Error logging in', { type: 'error' })
     }
   }
 
   return (
     <>
-      <div>
-        <Header />
-      </div>
-
       {loading ? (
         <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-50 flex items-center justify-center" />
       ) : (
@@ -103,7 +97,7 @@ export default function Login() {
                   {loading ? (
                     <AiOutlineReload className="animate-spin" />
                   ) : (
-                    "Sign in"
+                    'Sign in'
                   )}
                 </button>
               </div>
@@ -112,5 +106,5 @@ export default function Login() {
         </div>
       )}
     </>
-  );
+  )
 }

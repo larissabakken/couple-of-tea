@@ -4,13 +4,13 @@
 
 /* Tema claro */
 :root {
-  --background: #f7f7f7;
+  --background: #f4f4f4;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary-color: #8fd9a8;
-  --primary-color-dark: #6ec484;
-  --secondary-color: #e96eab;
-  --secondary-color-dark: rgb(172, 74, 131);
+  --primary-color: #0bc558;
+  --primary-color-dark: #0a9443;
+  --secondary-color: #e72c7a;
+  --secondary-color-dark: #971c4f;
   --error: #ff4d4d;
   --text-color: #2a2a2a;
 }
@@ -25,7 +25,7 @@ body {
 
 .cursor::after {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   width: 4px;
   height: 100%;
@@ -70,6 +70,3 @@ iframe {
     height: 20rem;
   }
 }
-  
-
-
