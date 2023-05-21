@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className="w-full flex items-start justify-center flex-col px-10">
+    <div className="w-full h-fit flex justify-center flex-col px-10 sm:mb-24">
       <div>
-        <h4 className="mb-1 text-gray-900 text-2xl">
+        <h4 className="text-gray-900 text-2xl">
           <span className="inline-flex h-20 whitespace-nowraps text-[var(--secondary-color)] font-bold">
             About
           </span>
