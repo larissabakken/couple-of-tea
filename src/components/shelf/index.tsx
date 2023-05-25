@@ -1,6 +1,7 @@
 import React from 'react'
-import { AiOutlineArrowRight } from 'react-icons/ai'
 import Image from 'next/image'
+import { FiMoreHorizontal } from 'react-icons/fi'
+import { TbShoppingCartPlus } from 'react-icons/tb'
 export default function Shelf() {
   const products = [
     {
@@ -60,29 +61,22 @@ export default function Shelf() {
   return (
     <div>
       <div className="mx-auto max-w-2xl px-4 py-18 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Whishlist
-        </h2>
-
         <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {products?.map((product, index) => (
             <div key={index}>
-              <div className="bg-gray-200 p-6 rounded-md shadow-sm hover:shadow-xl">
+              <div className="bg-gray-100 p-6 rounded-md shadow-sm hover:shadow-xl">
                 <div className="w-full bg-white rounded-sm pb-2">
                   <Image
                     src="/assets/bite.png"
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     alt={product.nameNOK}
-                    className="h-full w-full object-contain object-center p-4"
+                    className="h-full w-full object-cover p-4"
                   />
                 </div>
                 <div className="mt-4 flex justify-between">
                   <div>
-                    <h3 className="text-sm text-gray-700">
-                      <span aria-hidden="true" className="absolute inset-0" />
-                      {product.nameNOK}
-                    </h3>
+                    <h3 className="text-sm text-gray-700">{product.nameNOK}</h3>
                     <p className="mt-1 text-sm text-gray-500">
                       {product.descriptionNOK}
                     </p>
@@ -92,11 +86,12 @@ export default function Shelf() {
                   </p>
                 </div>
                 <div className="mt-4 flex justify-between">
-                  <button className="bg-[var(--secondary-color)] hover:bg-[var(--secondary-color-dark)] p-2 rounded-lg text-white shadow-pink-300 shadow-lg">
-                    Quero presentear
+                  <button className="text-sm bg-[var(--secondary-color)] hover:bg-[var(--secondary-color-dark)] px-3 py-1 rounded-lg text-white shadow-pink-300 shadow-lg">
+                    Quero presentear{' '}
+                    <TbShoppingCartPlus className="inline" size={20} />
                   </button>
-                  <button className="p-2 text-[var(--primary-color-dark)] font-bold hover:text-[var(--primary-color)]">
-                    Detalhes <AiOutlineArrowRight className="inline" />
+                  <button className="p-1 text-[var(--primary-color-dark)] font-bold hover:text-[var(--primary-color)]">
+                    Detalhes <FiMoreHorizontal className="inline" />
                   </button>
                 </div>
               </div>
