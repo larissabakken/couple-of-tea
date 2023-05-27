@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { HiOutlineArrowsPointingOut } from 'react-icons/hi2'
 import { TbShoppingCartPlus } from 'react-icons/tb'
 import Modal from '@/components/modal'
+import Link from 'next/link'
+import { BiWindowClose, IoCloseCircle } from 'react-icons/all'
 export default function Shelf() {
   const [modalOpenDetails, setModalOpenDetails] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
@@ -102,27 +104,39 @@ export default function Shelf() {
             </Modal>
 
             <Modal isOpen={modalOpenDetails}>
-              <div className="py-2 m-2">
-                <h2>Conteúdo do Modal</h2>
+              <div className="py-2 mb-2 max-w-2xl">
+                <div className="flex justify-between">
+                  <h2 className="text-lg">Detalhes do Produto</h2>
+                  <button
+                    className="text-red-600 hover:text-red-500 inline"
+                    onClick={closeModal}
+                  >
+                    <BiWindowClose size={22} />
+                  </button>
+                </div>
+                <div className="border-pink-600 border-2 my-2" />
                 <p>
-                  Este é um exemplo de modal simples sdjasdjaiosjdiaosjd
-                  aisdjsaio djaiod j
+                  <strong>Produto:</strong> {product.nameBRL}
                 </p>
-              </div>
-              <div className="flex justify-between m-2 text-white">
-                <button
-                  className="rounded-lg bg-[var(--primary-color)] py-2 px-4 shadow-gray-700 shadow-sm hover:bg-[var(--primary-color-dark)]"
-                  onClick={closeModal}
-                >
-                  Continuar
-                </button>
-
-                <button
-                  className="rounded-lg bg-[var(--error)] py-2 px-4 shadow-gray-700 shadow-sm hover:bg-[var(--secondary-color-dark)]"
-                  onClick={closeModal}
-                >
-                  Fechar
-                </button>
+                <p>
+                  <strong>Descrição:</strong> {product.descriptionBRL}
+                </p>
+                <p>
+                  <strong>R${product.priceBRL}</strong>
+                </p>
+                <p>
+                  <strong>Quantidade:</strong> {product.quantity}
+                </p>
+                <p>
+                  <strong>Link:</strong>
+                  <Link
+                    className="text-[var(--primary-color)]"
+                    href={product.link}
+                  >
+                    {' '}
+                    {product.link}{' '}
+                  </Link>
+                </p>
               </div>
             </Modal>
 
