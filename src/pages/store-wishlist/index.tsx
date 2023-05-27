@@ -6,7 +6,7 @@ export default function StoreWishlist() {
     console.log(page)
   }
   return (
-    <div>
+    <div className="w-full min-h-[90vh]">
       <Shelf />
       <Pagination
         currentPage={3}

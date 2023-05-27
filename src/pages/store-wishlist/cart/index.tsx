@@ -45,10 +45,13 @@ export default function Cart() {
 
   return (
     <div className="w-full min-h-[90vh] flex items-center justify-center">
-      <div className="min-w-[5rem] sm:min mx-10">
+      <div className="min-w-[5rem] mx-10">
         <div className="mt-8">
           <div className="flow-root">
             <ul role="list" className="-my-6 divide-y divide-gray-200">
+              <h2 className="text-base font-semibold leading-7 text-gray-900 pt-2">
+                Shopping Cart
+              </h2>
               {products.map((product) => (
                 <li key={product.id} className="flex py-6 mb-5">
                   <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
@@ -90,40 +93,16 @@ export default function Cart() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-          <div className="flex justify-end text-base font-medium text-gray-900">
-            <p className="px-2 text-[var(--primary-color-dark)]">Subtotal:</p>
-            <p>$262.00</p>
+        <div className="border-t border-gray-200 py-6">
+          <div className="text-right font-medium text-gray-900">
+            <p className="text-[var(--primary-color-dark)]">
+              Subtotal: $262.00
+            </p>
           </div>
         </div>
 
         <div>
           <form>
-            <div className="border-b border-gray-900/10 pb-12">
-              <div className="my-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                <div className="col-span-full">
-                  <label
-                    htmlFor="about"
-                    className="block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Gift Note
-                  </label>
-                  <p className="mt-3 text-sm leading-6 text-gray-600">
-                    If you wanna write a gift note, please write it here 👇
-                  </p>
-                  <div className="mt-2">
-                    <textarea
-                      id="about"
-                      name="about"
-                      rows={3}
-                      className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color-dark)] sm:text-sm sm:leading-6"
-                      defaultValue={''}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="border-b border-gray-900/10 pb-12">
               <h2 className="text-base font-semibold leading-7 text-gray-900">
                 Personal Information
@@ -190,6 +169,28 @@ export default function Cart() {
             </div>
 
             <div className="border-b border-gray-900/10 pb-12">
+              <div className="my-4 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                <div className="col-span-full">
+                  <h2 className="text-base font-semibold leading-7 text-gray-900">
+                    Gift Note
+                  </h2>
+                  <p className="mt-3 text-sm leading-6 text-gray-600">
+                    If you wanna write a gift note, please write it here 👇
+                  </p>
+                  <div className="mt-2">
+                    <textarea
+                      id="about"
+                      name="about"
+                      rows={3}
+                      className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color-dark)] sm:text-sm sm:leading-6"
+                      defaultValue={''}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="border-b border-gray-900/10 pb-12 pt-2">
               <h2 className="text-base font-semibold leading-7 text-gray-900">
                 How do you want to pay/buy?
               </h2>
