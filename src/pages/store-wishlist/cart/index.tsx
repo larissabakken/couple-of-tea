@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SendEmail from '@/components/sendEmail'
 
 const products = [
   {
@@ -265,6 +266,8 @@ export default function Cart() {
             </div>
           </form>
         </div>
+
+        <SendEmail />
       </div>
     </div>
   )
