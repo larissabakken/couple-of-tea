@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 interface BadgeProps {
-  title: string;
-  color: string;
+  title: string
+  color: string
 }
 
 function Badges({ title, color }: BadgeProps) {
@@ -14,7 +14,7 @@ function Badges({ title, color }: BadgeProps) {
         {title}
       </span>
     </div>
-  );
+  )
 }
 
-export default Badges;
+export default Badges
