@@ -1,9 +1,9 @@
 {
-  "restaurantDescription": "Menukort é um restaurante localizado no coração de Helsingør, Dinamarca. Com uma atmosfera aconchegante e um menu repleto de opções deliciosas, é um ótimo lugar para desfrutar de uma refeição com familiares e amigos. Eles oferecem uma variedade de pratos, incluindo a clássica culinária dinamarquesa e favoritos internacionais. Algumas opções populares no menu incluem o famoso steak tartare, barriga de porco crocante e pratos frescos de frutos do mar. Eles também têm uma seleção de opções vegetarianas e veganas para aqueles com restrições dietéticas.",
-  "restaurantName": "Menukort",
-  "restaurantLocationLink": "https://goo.gl/maps/rZDRMa25LBeoBu2C9",
-  "restaurantLink": "https://menukort.dk/",
-  "restaurantLocation": "Sct. Anna Gade 4, 3000 Helsingør, Dinamarca",
+  "restaurantDescription": "Halifax Amager é um restaurante localizado em Amager, Copenhague, Dinamarca. Possui uma atmosfera descontraída e é conhecido por seus hambúrgueres saborosos. O restaurante apresenta uma decoração moderna e elegante, com detalhes industriais. Eles oferecem uma ampla seleção de hambúrgueres suculentos com diferentes tipos de carne, incluindo carne bovina, frango e opções vegetarianas.",
+  "restaurantName": "Halifax Amager",
+  "restaurantLocationLink": "https://goo.gl/maps/vEWRdoxDyxeRhQit8",
+  "restaurantLink": "https://www.halifax.dk/restauranter/amager",
+  "restaurantLocation": "Amagerbro Torv 13, 2300 København S",
   "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.062472138265!2d12.61042225149657!3d56.03715598091422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465259da8a6e7b6d%3A0x44ab55b0ed88b7cc!2sMenukort!5e0!3m2!1sen!2suk!4v1651420632587!5m2!1sen!2suk",
   "weddingLocationLink": "https://goo.gl/maps/YKuCWpBipie8Zp149",
   "weddingLocation": "Prefeitura de Helsingør, Stengade 59, 3000 Helsingør",
@@ -14,5 +14,5 @@
   "inviteCerimony": "Por favor, junte-se a nós para a nossa cerimônia de casamento.",
   "inviteReception": "Por favor, junte-se a nós para uma comemoração após a cerimônia.",
   "titleReception": "Convite para a recepção",
-  "subtitleReception": "Após a cerimônia de casamento em Helsingør, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria."
+  "subtitleReception": "Após a cerimônia de casamento em Copenhague, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria."
 }
