@@ -10,6 +10,7 @@ export default function StoreWishlist() {
       <Shelf />
       <Pagination
         currentPage={3}
+
         totalPages={5}
         onPageChange={handlePageChange}
       />
