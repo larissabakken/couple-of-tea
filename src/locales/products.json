@@ -1,0 +1,167 @@
+[
+  {
+    "nameNOK": " Airfryer ",
+    "nameBRL":  " Airfryer ",
+    "descriptionNOK": " Type: Airfryer, Volum: 5.5 liter, Effekt: 1700 W ",
+    "descriptionBRL":  "Tipo: Airfryer, Volume: 5,5 litros, Potência: 1700 W",
+    "priceNOK": 2200,
+    "priceBRL": 998,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=5977903",
+    "image": "https://pricespy-75b8.kxcdn.com/product/right/800/5977903.jpg"
+  },
+  {
+    "nameNOK": "Foodprosessor" ,
+    "nameBRL":  "Processador de alimentos",
+    "descriptionNOK": "Foodprosessor med 800 W motor og SmartStorage",
+    "descriptionBRL": "Processador de alimentos com motor de 800 W e SmartStorage (armazenamento inteligente).",
+    "priceNOK": 1699,
+    "priceBRL": 770,
+    "quantity": 1,
+    "link": "https://www.power.no/kjoekkenmaskiner/kjoekkenmaskiner-og-miksere/foodprosessor/bosch-mcm3501m-foodprosessor/p-260178/?utm_source=prisjakt&utm_medium=cpc",
+    "image": "https://media.power-cdn.net/images/h-b9a8c58a1636f0ae404c9c843dc2abe4/products/260178/260178_17_900x900_t_g.webp"
+  },
+  {
+    "nameNOK": "brødrister",
+    "nameBR": "Torradeira",
+    "descriptionNOK": "Antall brødskiver: 2 skiver, Funksjoner: Trekk-ut smulebrett, Stoppfunksjon, Opptiningsfunksjon, Effekt: 950 W",
+    "descriptionBRL": "Número de fatias de pão: 2 fatias, Funções: Bandeja removível de migalhas, Função de parar, Função de descongelamento, Potência: 950 W.",
+    "priceNOK": 750,
+    "priceBRL": 345,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=5197602",
+    "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/5197602.jpg"
+  },
+  {
+    "nameNOK": "Tv-kanne",
+    "nameBRL":  "Jarra eletrica",
+    "descriptionNOK": "Tv-kanne Tiger, 1 liter",
+    "descriptionBRL": "Jarra elétrica Tiger, 1 litro",
+    "priceNOK": 399,
+    "priceBRL": 183,
+    "quantity": 1,
+    "link": "https://www.europris.no/p-tv-kanne-tiger-1-l-148139",
+    "image": "https://images2.europris.no/produkter/vw800/148139/148139_main.webp"
+  },
+  {
+    "nameNOK": "Knivsliper",
+    "nameBRL":  "Amolador de faca",
+    "descriptionNOK": "Knivsliper, svart",
+    "descriptionBRL": "Amolador de faca preto",
+    "priceNOK": 69,
+    "priceBRL": 31.68,
+    "quantity": 1,
+    "link": "https://www.ikea.com/no/no/p/aspekt-knivsliper-svart-57145296/",
+    "image": "https://www.ikea.com/no/no/images/products/aspekt-knivsliper-svart__0895075_pe609833_s5.jpg?f=xxxs"
+  },
+  {
+    "nameNOK": "Grytesett",
+    "nameBRL":  "Conjunto de panelas",
+    "descriptionNOK": "Grytesett, 5 deler, glass/rustfritt stål",
+    "descriptionBRL":  "Conjunto de panelas, 5 peças, vidro/aço inoxidável",
+    "priceNOK": 299,
+    "priceBRL": 137,
+    "quantity": 1,
+    "link": "https://www.ikea.com/no/no/p/annons-grytesett-5-deler-glass-rustfritt-stal-90207402/",
+    "image": "https://www.ikea.com/no/no/images/products/annons-grytesett-5-deler-glass-rustfritt-stal__0893765_pe609824_s5.jpg?f=xxxs"
+  },
+  {
+    "nameNOK": "Stekepanner",
+    "nameBRL":  "Kit de frigideiras",
+    "descriptionNOK": "Stekepanner, sett med 2, svart",
+    "descriptionBRL": "Frigideiras, conjunto com 2, preto",
+    "priceNOK": 149,
+    "priceBRL": 68.50,
+    "quantity": 1,
+    "link": "https://www.ikea.com/no/no/p/kavalkad-stekepanner-sett-med-2-svart-40139321/",
+    "image": "https://www.ikea.com/no/no/images/products/kavalkad-stekepanner-sett-med-2-svart__0168402_pe237869_s5.jpg?f=l"
+  },
+  {
+    "nameNOK": "støvsuger",
+    "nameBRL":  "Aspirador de pó",
+    "descriptionNOK": "Bruk: Stangstøvsuger, Type: Vannfilter, Støynivå: 85 dB",
+    "descriptionBRL": "Uso: Aspirador de mão, Tipo: Filtro de água, Nível de ruído: 85 dB.",
+    "priceNOK": 2800,
+    "priceBRL": 1285,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=5212434",
+    "image": "https://pricespy-75b8.kxcdn.com/product/back/800/5212434.jpg"
+  },
+  {
+    "nameNOK": "Feiesett",
+    "nameBRL":  "conjunto de vassoura e pá de lixo",
+    "descriptionNOK": "Feiesett m/langt skaft, plast",
+    "descriptionBRL": "Conjunto de vassoura e pá de lixo, plástico ",
+    "priceNOK": 99,
+    "priceBRL": 45,
+    "quantity": 1,
+    "link": "https://www.europris.no/p-feiesett-m-langt-skaft-plast-136122",
+    "image": "https://images2.europris.no/produkter/vw370/136122/136122_main.webp"
+  },
+  {
+    "nameNOK": "Bøtte",
+    "nameBRL":  "Balde",
+    "descriptionNOK": "Bøtte, 15 liter",
+    "descriptionBRL": "Balde, 15 litros",
+    "priceNOK": 80,
+    "priceBRL": 36,
+    "quantity": 3,
+    "link": "https://www.europris.no/p-botte-15-liter-105658",
+    "image": "https://images2.europris.no/produkter/vw800/105658/105658_main.webp"
+  },
+  {
+    "nameNOK": "Rengjøringssett",
+    "nameBRL":  "conjunto de limpeza",
+    "descriptionNOK": "Et sett til alle rengjøringsbehovene dine ",
+    "descriptionBRL": "Um conjunto para todas as suas necessidades de limpeza",
+    "priceNOK": 369,
+    "priceBRL": 168,
+    "quantity": 1,
+    "link": "https://www.ikea.com/no/no/p/pepprig-rengjoringssett-50499558/",
+    "image": "https://www.ikea.com/no/no/images/products/pepprig-rengjoringssett__0978524_pe814147_s5.jpg?f=xxxs"
+  },
+  {
+    "nameNOK": "Roomba Combo",
+    "nameBRL":  "Robô aspirador de pó",
+    "descriptionNOK": "Robotstøvsuger og -gulvmopp i ett",
+    "descriptionBRL": "aspirador de pó e esfregão de piso robóticos em um",
+    "priceNOK": 10499.00,
+    "priceBRL": 4784,
+    "quantity": 1,
+    "link": "https://www.irobot.no/roomba/j-serien/roomba-combo-j7",
+    "image": "https://www.irobot.no/Admin/Public/GetImage.ashx?image=%2fFiles%2fImages%2fBrands%2firobot%2fAwards%2fRoombaCombo_j7_plus_aod.png&width=1280&format=webp&quality=99.png"
+  },
+  {
+    "nameNOK":  "Rengjøringstilbehør",
+    "nameBRL":   "acessórios de limpeza",
+    "descriptionNOK": "LILLNAGGEN Nal",
+    "descriptionBRL": "Kit de limpeza ",
+    "priceNOK": 29,
+    "priceBRL": 13,
+    "quantity": 2,
+    "link": "https://www.ikea.com/no/no/p/lillnaggen-nal-40243596/",
+    "image": "https://www.ikea.com/no/no/images/products/lillnaggen-nal__0863700_pe555289_s5.jpg?f=xxxs"
+  },
+  {
+    "nameNOK": "hundeseng",
+    "nameBRL":  "Caminha para cachorro",
+    "descriptionNOK": "Trixie Jimmy 75x65cm",
+    "descriptionBRL": "Cama para cachorro 75x65cm",
+    "priceNOK": 657,
+    "priceBRL": 300,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=4993096",
+    "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/4993096.jpg"
+  },
+  {
+    "nameNOK":  "mikrobølgeovn",
+    "nameBRL":  "Microondas",
+    "descriptionNOK": "Tilpasningstype: Frittstående, Ovnsvolum: 23 liter, Maks effekt: 750 W",
+    "descriptionBRL": "Tipo de ajuste: Independente, Volume do forno: 23 litros, Potência máxima: 750 W.",
+    "priceNOK": 1450,
+    "priceBRL": 660,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=3744513",
+    "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/3744513.jpg"
+  }
+]

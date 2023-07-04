@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { HiOutlineArrowsPointingOut } from 'react-icons/hi2'
 import { TbShoppingCartPlus } from 'react-icons/tb'
 import Modal from '@/components/modal'
 import Link from 'next/link'
-import { BiWindowClose, IoCloseCircle } from 'react-icons/all'
+import { BiWindowClose } from 'react-icons/bi'
 export default function Shelf() {
   const [modalOpenDetails, setModalOpenDetails] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)

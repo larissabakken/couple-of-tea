@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SendEmail = () => {
+export default function SendEmail() {
   const handleEmail = async () => {
     try {
       const response = await fetch('/api/email', { method: 'POST' })
@@ -20,5 +20,3 @@ const SendEmail = () => {
     </div>
   )
 }
-
-export default SendEmail
