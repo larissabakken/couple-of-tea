@@ -22,7 +22,7 @@ export default function Form() {
     'no-NO': noTranslations,
   }
 
-  const t = translations[language]
+  const t = translations[language || 'pt-BR']
 
   const onSubmit: SubmitHandler<any> = async (data) => {
     const text = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nGifts: ${data.cart}\nPayment: ${data.payOption}\n Message: ${data.message}`
