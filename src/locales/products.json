@@ -1,5 +1,6 @@
 [
   {
+    "buyers": [ ],
     "nameNOK": "Airfryer",
     "nameBR":  "Airfryer",
     "descriptionNOK": "COSORI Premium Airfryer (CP158): 5.5 liter, Effekt: 1700 W",
@@ -11,6 +12,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/right/800/5977903.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Foodprosessor" ,
     "nameBR":  "Processador de alimentos",
     "descriptionNOK": "Foodprosessor med 800 W motor og SmartStorage",
@@ -22,6 +24,7 @@
     "image": "https://media.power-cdn.net/images/h-b9a8c58a1636f0ae404c9c843dc2abe4/products/260178/260178_17_900x900_t_g.webp"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Brødrister",
     "nameBR": "Torradeira",
     "descriptionNOK": "2 skiver, Trekk-ut smulebrett, Stoppfunksjon, Opptiningsfunksjon, Effekt: 950 W",
@@ -33,6 +36,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/5197602.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "kaffekanne",
     "nameBR":  "Jarra eletrica",
     "descriptionNOK": "Tv-kanne Tiger, 1 liter",
@@ -44,6 +48,7 @@
     "image": "https://images2.europris.no/produkter/vw800/148139/148139_main.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Grytesett",
     "nameBR":  "Conjunto de panelas",
     "descriptionNOK": "Grytesett, 5 deler, glass/rustfritt stål",
@@ -55,6 +60,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5767023.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Stekepanne",
     "nameBR": "Frigideira",
     "descriptionNOK": "Tefal Unlimited Stekepanne 28cm",
@@ -66,6 +72,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5403238.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Feiesett",
     "nameBR": "Conjunto de vassoura e pá de lixo",
     "descriptionNOK": "Feiesett m/langt skaft, plast",
@@ -77,6 +84,7 @@
     "image": "https://images2.europris.no/produkter/vw370/136122/136122_main.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Bøtte",
     "nameBR": "Balde",
     "descriptionNOK": "Bøtte, 15 liter",
@@ -88,6 +96,7 @@
     "image": "https://images2.europris.no/produkter/vw800/10/105658/105658_main.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Rengjøringssett",
     "nameBR": "Conjunto de limpeza",
     "descriptionNOK": "Et sett til alle rengjøringsbehovene dine",
@@ -99,6 +108,7 @@
     "image": "https://www.ikea.com/no/no/images/products/pepprig-rengjoringssett__0978524_pe814147_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Roomba",
     "nameBR": "Robô aspirador de pó",
     "descriptionNOK": "Robotstøvsuger og -gulvmopp i ett",
@@ -110,6 +120,7 @@
     "image": "https://www.irobot.no/Admin/Public/GetImage.ashx?image=%2fFiles%2fImages%2fBrands%2firobot%2fAwards%2fRoombaCombo_j7_plus_aod.png&width=1280&format=webp&quality=99.png"
   },
   {
+    "buyers": ["Alison"],
     "nameNOK": "Hundeseng",
     "nameBR": "Caminha para cachorro",
     "descriptionNOK": "Trixie Jimmy 75x65cm",
@@ -121,6 +132,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/4993096.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK":  "Mikrobølgeovn",
     "nameBR":  "Microondas",
     "descriptionNOK": "Ovnsvolum: 23 liter, Maks effekt: 750 W",
@@ -132,6 +144,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/3744513.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Monitor 34' Ultrawide",
     "nameBR": "Monitor 34' Ultrawide",
     "descriptionNOK": "AOC CU34G2X 34' Ultrawide Buet Gaming WQHD",
@@ -143,6 +156,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5254514.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Nattbord",
     "nameBR": "Comoda",
     "descriptionNOK": "Liten kommode med 2 skuffer, hvit,",
@@ -154,6 +168,7 @@
     "image": "https://www.ikea.com/no/no/images/products/malm-kommode-med-2-skuffer-hvit__0626822_pe693007_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Pute",
     "nameBR": "Travesseiros",
     "descriptionNOK": "Pute, lav, 50x60 cm",
@@ -165,6 +180,7 @@
     "image": "https://www.ikea.com/no/no/images/products/groenamarant-pute-lav__0789260_pe763889_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Laken",
     "nameBR": "Lencol",
     "descriptionNOK": "Laken, fasongsydd, hvit, 140x200 cm",
@@ -176,6 +192,7 @@
     "image": "https://www.ikea.com/no/no/images/products/dvala-laken-fasongsydd-hvit__0604085_pe681026_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Dynetrekk",
     "nameBR": "Edredom",
     "descriptionNOK": "Dynetrekk og putevar, hvit bla/sky, 150x220/50x60 cm",
@@ -187,6 +204,7 @@
     "image": "https://cdn4.jysk.com/getimage/wd2.large/202888.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Hev/senk skrivebord",
     "nameBR": "Mesa de Trabalho",
     "descriptionNOK": "Skrivebord sitte/stå, 140x80 cm",
@@ -198,6 +216,7 @@
     "image": "https://www.ikea.com/no/no/images/products/rodulf-arbeidsbord-sitte-sta-gra-hvit__0799319_pe767525_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Tårnvifte",
     "nameBR": "Ventilador",
     "descriptionNOK": "Tårnvifte 74 cm",
@@ -209,6 +228,7 @@
     "image": "https://images.clasohlson.com/medias/sys_master/hf4/hb7/68036432789534.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Knagger",
     "nameBR": "Suporte de parede",
     "descriptionNOK": "Veggkrok hundedekorasjon, svart.",
@@ -220,6 +240,7 @@
     "image": "https://www.ikea.com/no/no/images/products/baestis-knagg-svart__0918613_pe786401_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Skohylle",
     "nameBR": "Sapateira" ,
     "descriptionNOK": "Skohylle, grå, 58x27x17 cm",
@@ -231,6 +252,7 @@
     "image":"https://www.ikea.com/no/no/images/products/grejig-skohylle-gra__0909351_pe680755_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Baderomssett",
     "nameBR": "Conjunto de banheiro",
     "descriptionNOK": "Baderomssett 3 deler, hvit",
@@ -242,6 +264,7 @@
     "image": "https://www.ikea.com/no/no/images/products/storavan-baderomssett-3-deler-hvit__0833216_pe777987_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Håndkle",
     "nameBR": "Toalha de banho",
     "descriptionNOK": "Håndkle, dyprød, 100x150 cm",
@@ -253,6 +276,7 @@
     "image":"https://www.ikea.com/no/no/images/products/fredriksjoen-badelaken-dyprod__1150478_pe884590_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "TV Samsung QE55Q70B 55",
     "nameBR": "TV Samsung QE55Q70B 55",
     "descriptionNOK": "Samsung QE55Q70B 55 4K Ultra HD (3840x2160) LCD Smart TV",
@@ -264,6 +288,7 @@
     "image": "https://thumb.pccomponentes.com/w-530-530/articles/1039/10394935/1987-samsung-qe55q70b-55-qled-ultrahd-4k-quantum-hdr.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Bokhylle",
     "nameBR": "Estante de livros",
     "descriptionNOK": "Bokhylle med panel/glassdør, brunsvart/glass, 120x30x202 cm",
@@ -275,6 +300,7 @@
     "image": "https://www.ikea.com/no/no/images/products/billy-oxberg-bokhylle-med-panel-glassdor-brunsvart-glass__0668505_pe714526_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Pastamaskin",
     "nameBR": "Máquina de macarrão",
     "descriptionNOK": "Pastamaskin, til å lage pasta og pastel",
@@ -286,6 +312,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5599114.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Drill",
     "nameBR": "Furadeira",
     "descriptionNOK": "Boremaskin/drill med batteri",
@@ -297,6 +324,7 @@
     "image": "https://a-static.mlcdn.com.br/800x560/furadeira-parafusadeira-a-bateria-12v-gsr-1000-smart-bivolt-bosch/cordeiromaquinas/53080/27f53be0b88da2a8d379574c2aeb345c.jpeg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Dørklokke",
     "nameBR": "Campainha",
     "descriptionNOK": "Valux dørklokke trådløs 80m hvit komplett 36 melodivalg lyd og lys",
@@ -308,6 +336,7 @@
     "image": "https://cdn.jernia.no/mam/celum/celum_assets/9844967178270_5709119050887_393182_psd.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Sengeteppe",
     "nameBR": "Kit colcha",
     "descriptionNOK": "Sengeteppe med putevar, 235x250cm",
@@ -319,6 +348,7 @@
     "image": "https://static.riachuelo.com.br/RCHLO/14746980001/portrait/5d1372f7412f85713409f13c66d6bf301528d795.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Badminton & Volleyball sett",
     "nameBR": "Kit de Badminton e Voleibol",
     "descriptionNOK": "Badminton & Volleyball sett med nett",
@@ -330,6 +360,7 @@
     "image": "https://www.extra-leker.no/media/catalog/product/cache/5de1f00fa447cfc16f8bf2e2f66c6102/n/t/nti-867515_1__226102__hb10cfaaf.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Paninijern",
     "nameBR": "Grill",
     "descriptionNOK": "Princess multi grill 4-in-1 smørbrødgrill sølv",
@@ -341,6 +372,7 @@
     "image": "https://media.power-cdn.net/images/h-6a7ff0148065322c54b9d7ffcf71307a/products/1128112/1128112_1_600x600_w_g.webp"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Isbitmaskin",
     "nameBR": "Máquina de Cubos de Gelo",
     "descriptionNOK": "En liten og kompakt isbitmaskin med høy kapasitet.",
@@ -352,6 +384,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/front/800/4760092.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Hundeoverall",
     "nameBR": "Jaqueta Térmica",
     "descriptionNOK": "Rukka Thermal Softshell Overall er et vindtett og vannavvisende hundedekken som holder hunden din tørr og varm i vinterkulden",
@@ -363,6 +396,7 @@
     "image": "https://get.musti.media/shops/mno/resources/ftp/productpage/22/rukka-thermal-softshell-overall-svart-22.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Smart pet feeder",
     "nameBR": "Alimentador inteligente para animais de estimação",
     "descriptionNOK": "Xiaomi Smart Pet Food Feeder",
@@ -374,6 +408,7 @@
     "image": "https://www.pcguia.pt/wp-content/uploads/2022/09/Xiaomi-Smart-Pet-Food-Feeder-Medium.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Yale Linus Smartlås",
     "nameBR": "Yale Linus Fechadura inteligente",
     "descriptionNOK": "Elektronisk, smart dørlås",
@@ -385,6 +420,7 @@
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5695131.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "IKEA Smartlys farger",
     "nameBR": "Lâmpada inteligente com cores",
     "descriptionNOK": "IKEA Smartlys stor sokkel med farger,  E27",
@@ -396,6 +432,7 @@
     "image": "https://www.ikea.com/no/no/images/products/tradfri-led-paere-e27-806-lumen-smart-kan-dimmes-tradlost-farge-og-varmhvit-til-kaldhvit-globe__0775977_pe757658_s5.jpg"
   },
   {
+  "buyers": [ ],
   "nameNOK": "IKEA Smartlys hvit",
   "nameBR": "Lâmpada inteligente",
   "descriptionNOK": "IKEA Smartlys stor sokkel, varm til kald hvit, kan dimmes,  E27",
@@ -407,6 +444,7 @@
   "image": "https://www.ikea.com/no/no/images/products/tradfri-led-paere-e27-1055-lumen-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit-globe__0773338_pe756272_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "IKEA Smartlys GU10",
     "nameBR": "IKEA iluminação inteligente, GU10",
     "descriptionNOK": "Fjernkontrollsett, smart kan dimmes trådløst/varmhvit til kaldhvit, GU10",
@@ -418,6 +456,7 @@
     "image": "https://www.ikea.com/no/no/images/products/tradfri-fjernkontrollsett-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit__1008883_pe827360_s5.jpg"
   },
   {
+    "buyers": [ ],
     "nameNOK": "Kullgrill",
     "nameBR": "Churrasqueira a carvão",
     "descriptionNOK": "Weber Bar B-Kettle kullgrill 47 cm",
@@ -427,5 +466,17 @@
     "quantity": 1,
     "link": "https://www.obsbygg.no/hage-og-utemiljo/grill/kullgriller/2097785?v=ObsBygg-77924003202",
     "image": "https://www.obsbygg.no/globalassets/productimages/713140_77924003202_3.png"
+  },
+  {
+    "buyers": [ ],
+    "nameNOK": "Kjøkkenmaskin",
+    "nameBR": "Batedeira",
+    "descriptionNOK": "Kenwood Limited Titanium Chef Baker XL KVL85.004SI",
+    "descriptionBR": "Kenwood Limited Titanium Chef Baker XL KVL85.004SI",
+    "priceNOK": 6200,
+    "priceBR": 2810,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=5871994",
+    "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5871994.jpg"
   }
 ]
