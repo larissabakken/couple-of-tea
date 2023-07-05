@@ -65,9 +65,7 @@ export default function StoreWishlist() {
       <Modal isOpen={modalOpen}>
         <div className="py-2 mb-2 max-w-2xl">
           <div className="flex justify-between">
-            <h2 className="text-lg">
-              {language === 'pt-BR' ? 'Detalhes do Produto' : 'Produktdetaljer'}
-            </h2>
+            <h2 className="text-lg">{t.store.titleModal}</h2>
             <button
               className="text-red-600 hover:text-red-500 inline"
               onClick={() => setModalOpen(false)}
@@ -77,9 +75,20 @@ export default function StoreWishlist() {
           </div>
           <div className="border-pink-600 border-2 my-2" />
 
-          <p>
-            <strong>Link:</strong>
+          <p className="my-6">
+            <strong>{t.store.textModal}</strong>
           </p>
+          <div className="border-pink-600 border-2 my-2" />
+          <div className="text-white flex items-center justify-end">
+            <button className="bg-[var(--error)] rounded-lg p-2 mx-2">
+              {t.store.btnCancel}
+            </button>
+            <Link href={`/store-wishlist/form/${language}`}>
+              <button className="bg-[var(--primary-color-dark)] rounded-lg p-2">
+                {t.store.btnContinue}
+              </button>
+            </Link>
+          </div>
         </div>
       </Modal>
     </div>
