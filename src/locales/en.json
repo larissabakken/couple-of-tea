@@ -1,18 +1,22 @@
 {
-  "restaurantDescription": "Menukort is a restaurant located in the heart of Helsingør, Denmark. With a cozy atmosphere and a menu full of delicious options, it's a great place to enjoy a meal with family and friends. They offer a variety of dishes, including classic Danish cuisine and international favorites. Some popular options on the menu include their famous beef tartare, crispy pork belly, and fresh seafood dishes. They also have a selection of vegetarian and vegan options for those with dietary restrictions",
-  "restaurantName": "Menukort",
-  "restaurantLocationLink": "https://goo.gl/maps/rZDRMa25LBeoBu2C9",
-  "restaurantLink": "https://menukort.dk/",
-  "restaurantLocation": "Sct. Anna Gade 4, 3000 Helsingør, Denmark",
-  "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.062472138265!2d12.61042225149657!3d56.03715598091422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465259da8a6e7b6d%3A0x44ab55b0ed88b7cc!2sMenukort!5e0!3m2!1sen!2suk!4v1651420632587!5m2!1sen!2suk",
+  "restaurantDescription": "Halifax Amager is a restaurant located in Amager, Copenhagen, Denmark. It has a relaxed atmosphere and is known for its flavorful burgers. The restaurant features modern and stylish decor with industrial details. They offer a wide selection of juicy burgers with various types of meat, including beef, chicken, and vegetarian options.",
+  "restaurantName": "Halifax Amager",
+  "restaurantLocationLink": "https://goo.gl/maps/vEWRdoxDyxeRhQit8",
+  "restaurantLink": "https://www.halifax.dk/restauranter/amager",
+  "restaurantLocation": "Amagerbro Torv 13, 2300 København S",
+  "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9001.875804886013!2d12.593612639397511!3d55.66344497391886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525349692938ff%3A0x62ef12715651419d!2sHalifax!5e0!3m2!1sno!2sno!4v1688485796554!5m2!1sno!2sno",
   "weddingLocationLink": "https://goo.gl/maps/YKuCWpBipie8Zp149",
   "weddingLocation": "Helsingør Town Hall, Stengade 59, 3000 Helsingør",
   "weddingDescription": "Helsingør Town Hall Saturday 29th July 2023 at 11:00am",
-  "weddingMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.404163687238!2d12.592282615851803!3d56.03829388092079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525b9bb9a9d6e5%3A0x223044a6aeea1fa7!2sHelsing%C3%B8r%20Town%20Hall!5e0!3m2!1sen!2sus!4v1653846766361!5m2!1sen!2sus",
+  "weddingMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35682.21675840728!2d12.521531258837488!3d56.01627311099788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652311146aed71f%3A0x5d43e2422b66a435!2sHelsing%C3%B8r%20City%20Hall!5e0!3m2!1sno!2sno!4v1688486057904!5m2!1sno!2sno",
   "title": "You're invited to our wedding!",
   "subtitle": "There is nothing that would make us happier than sharing this moment of love and joy with you. Your presence is an invaluable gift and will make this special day even more memorable. Even for those who cannot be physically present, a live stream will be available five minutes before the ceremony at the link above. Join us in this celebration of love and commitment.",
   "inviteCerimony": "Please join us for our wedding ceremony.",
   "inviteReception": "Join us in celebrating our wedding!",
   "titleReception": "Reception Invitation",
-  "subtitleReception": "After the wedding ceremony in Helsingør, we will be continuing the celebration at a restaurant in Copenhagen, surrounded by our closest friends. Your presence would mean the world to us as we commemorate this special day filled with love and joy."
+  "subtitleReception": "After the wedding ceremony in Helsingør, we will be continuing the celebration at a restaurant in Copenhagen, surrounded by our closest friends. Your presence would mean the world to us as we commemorate this special day filled with love and joy.",
+  "store": {
+    "buttonGift": "I want to give the brides a gift!"
+  }
+
 }

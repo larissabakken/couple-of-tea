@@ -1,5 +1,6 @@
 export type Translation = {
   [key: string]: {
+    store: any
     restaurantDescription: string
     restaurantName: string
     restaurantLocationLink: string

@@ -1,18 +1,48 @@
 {
-  "restaurantDescription": "Menukort er en restaurant som ligger i hjertet av Helsingør, Danmark. Med en koselig atmosfære og et meny fullt av deilige valgmuligheter, er det et flott sted å nyte et måltid med familie og venner. De tilbyr et utvalg av retter, inkludert klassisk dansk mat og internasjonale favoritter. Noen populære alternativer på menyen inkluderer deres berømte biff tartare, sprø svinekjøtt mage og ferske sjømatretter. De har også et utvalg av vegetariske og veganske alternativer for de med kostrestriksjoner",
-  "restaurantName": "Menukort",
-  "restaurantLocationLink": "https://goo.gl/maps/rZDRMa25LBeoBu2C9",
-  "restaurantLink": "https://menukort.dk/",
-  "restaurantLocation": "Sct. Anna Gade 4, 3000 Helsingør, Danmark",
-  "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2256.062472138265!2d12.61042225149657!3d56.03715598091422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465259da8a6e7b6d%3A0x44ab55b0ed88b7cc!2sMenukort!5e0!3m2!1sen!2suk!4v1651420632587!5m2!1sen!2suk",
+  "restaurantDescription": "Halifax Amager er en restaurant på Amager i København, Danmark. Den har en avslappet atmosfære og er kjent for sine smakfulle burgere. Restauranten har moderne og stilig innredning med industrielle detaljer. De tilbyr et bredt utvalg av saftige burgere med forskjellige typer kjøtt, inkludert oksekjøtt, kylling og vegetariske alternativer.",
+  "restaurantName": "Halifax Amager",
+  "restaurantLocationLink": "https://goo.gl/maps/vEWRdoxDyxeRhQit8",
+  "restaurantLink": "https://www.halifax.dk/restauranter/amager",
+  "restaurantLocation": "Amagerbro Torv 13, 2300 København S",
+  "restaurantMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9001.875804886013!2d12.593612639397511!3d55.66344497391886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525349692938ff%3A0x62ef12715651419d!2sHalifax!5e0!3m2!1sno!2sno!4v1688485796554!5m2!1sno!2sno",
   "weddingLocationLink": "https://goo.gl/maps/YKuCWpBipie8Zp149",
   "weddingLocation": "Helsingør Rådhus, Stengade 59, 3000 Helsingør",
   "weddingDescription": "Helsingør Rådhus Lørdag 29. juli 2023 kl. 11.00",
-  "weddingMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.404163687238!2d12.592282615851803!3d56.03829388092079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525b9bb9a9d6e5%3A0x223044a6aeea1fa7!2sHelsing%C3%B8r%20Town%20Hall!5e0!3m2!1sen!2sus!4v1653846766361!5m2!1sen!2sus",
+  "weddingMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35682.21675840728!2d12.521531258837488!3d56.01627311099788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652311146aed71f%3A0x5d43e2422b66a435!2sHelsing%C3%B8r%20City%20Hall!5e0!3m2!1sno!2sno!4v1688486057904!5m2!1sno!2sno",
   "title": "Du er invitert til bryllupet vårt!",
-  "subtitle": "Det er ingenting som ville gjøre oss lykkeligere enn å dele dette øyeblikket av kjærlighet og glede med deg. Din tilstedeværelse er en uvurderlig gave og vil gjøre denne spesielle dagen enda mer minneverdig. Selv for de som ikke kan være fysisk til stede, vil det være en direktesending tilgjengelig fem minutter før seremonien på lenken ovenfor. Bli med oss i denne feiringen av kjærlighet og forpliktelse.",
+  "subtitle": "Det er ingenting som ville gjøre oss lykkeligere enn å dele dette øyeblikket fyllt med kjærlighet og glede med deg. Din tilstedeværelse er en uvurderlig gave og vil gjøre denne spesielle dagen enda mer minneverdig. Selv for de som ikke kan være fysisk til stede, vil det være en direktesending tilgjengelig fem minutter før seremonien på lenken ovenfor. Bli med oss i denne feiringen for kjærlighet og forpliktelse.",
   "inviteCerimony": "Vennligst bli med oss for vår bryllupsseremoni.",
-  "inviteReception": "Vennligst bli med oss for et feiringmåltid kl.",
+  "inviteReception": "Vennligst bli med oss for et feiringmåltid kl 16.00",
   "titleReception": "Til mottakelse: Du er invitert!",
-  "subtitleReception": "Etter vielsen i Helsingør vil vi fortsette feiringen på en restaurant i København, omgitt av våre nærmeste venner. Ditt nærvær ville bety mye for oss i denne spesielle dagen fylt med kjærlighet og glede."
+  "subtitleReception": "Etter vielsen i Helsingør vil vi fortsette feiringen på en restaurant i København, omgitt av våre nærmeste venner. Ditt nærvær ville bety mye for oss i denne spesielle dagen fylt med kjærlighet og glede.",
+  "store": {
+    "buttonGift": "Jeg vil gi brudene en gave!",
+    "titleModal": "Gave til brudene",
+    "textModal": "Hvis du ønsker å gi oss en gave, vil vi sette pris på din generøsitet. For å gjøre prosessen enklere, har vi opprettet et spesielt skjema der du kan fortelle oss hva og hvordan du ønsker å gi oss en gave. Bare fortsett til neste trinn, og du vil bli omdirigert til den siden. Vi takker deg på forhånd for din omtanke og vennlighet!",
+    "btnCancel": "Avbryt",
+    "btnContinue": "Fortsett",
+    "form": {
+      "title": "Personlig informasjon",
+      "subtitle": "Vennligst oppgi hvem du er.",
+      "name": "Navn",
+      "email": "E-post (valgfritt)",
+      "phone": "Telefon",
+      "cart": "Hvilke gjenstander vil du gi oss som gave?",
+      "cartDescription": "Vennligst fortell oss hvilke gjenstander du ønsker å gi oss som gave. Hvis du er usikker på hva du skal velge, er det også mulig å gi oss en pengegave.",
+      "message": "Melding",
+      "messageDescription": "Hvis du ønsker å skrive en melding til oss, kan du gjerne dele den her!",
+      "payTitle": "Hvordan ønsker du å gi oss gaven?",
+      "payDescription": "Vennligst velg den beste måten å gi oss gaven på.",
+      "payOptions": {
+        "option1": "Overføre til vår bankkonto.",
+        "option2": "Velge og sende gaver til vår adresse",
+        "option3": "Jeg har ikke bestemt meg enda! Jeg vil kontakte dere snart."
+      },
+      "success": {
+        "title": "Tusen Takk!",
+        "description": "Generøsiteten din betyr mye for oss. Vi setter stor pris på omtanken og vennligheten din på forhånd!"
+      }
+    }
+  }
+
 }
