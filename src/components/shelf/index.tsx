@@ -6,7 +6,11 @@ import Products from '@/locales/products.json'
 import { BiWindowClose } from 'react-icons/bi'
 import { GiExpand } from 'react-icons/gi'
 
-export default function Shelf({ language }: any) {
+interface ShelfProps {
+  language: string
+}
+
+export default function Shelf({ language }: ShelfProps) {
   const [modalOpenIndex, setModalOpenIndex] = useState<number | null>(null)
 
   const openModal = (index: number) => {
