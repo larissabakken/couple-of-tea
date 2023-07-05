@@ -9,22 +9,23 @@ AWS.config.update({
 
 export default function sendEmail(req: NextApiRequest, res: NextApiResponse) {
   const ses = new AWS.SES()
+  const data = req.body
 
   const params = {
     Destination: {
-      ToAddresses: ['larissabakken@icloud.com', 'astridbakken95@gmail.com'], // substitua pelo endereço de e-mail do destinatário
+      ToAddresses: ['larissabakken@icloud.com', 'astridbakken95@gmail.com'],
     },
     Message: {
       Body: {
         Text: {
-          Data: 'Hello, world!', // substitua pelo conteúdo do e-mail
+          Data: data,
         },
       },
       Subject: {
-        Data: 'Test Email', // substitua pelo assunto do e-mail
+        Data: `GIFT`,
       },
     },
-    Source: 'larissabakken@gmail.com', // substitua pelo endereço de e-mail do remetente
+    Source: 'larissabakken@gmail.com',
   }
 
   ses.sendEmail(params, (err, data) => {
@@ -33,7 +34,7 @@ export default function sendEmail(req: NextApiRequest, res: NextApiResponse) {
       res.status(500).json({ error: `Error -> ${err}` })
     } else {
       console.log('Email sent successfully')
-      res.status(200).json({ message: 'Email sent successfully' })
+      res.status(200).json({ message: `Email sent successfully ${data}` })
     }
   })
 }

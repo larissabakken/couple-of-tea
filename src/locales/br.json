@@ -14,5 +14,35 @@
   "inviteCerimony": "Por favor, junte-se a nós para a nossa cerimônia de casamento.",
   "inviteReception": "Por favor, junte-se a nós para uma comemoração após a cerimônia.",
   "titleReception": "Convite para a recepção",
-  "subtitleReception": "Após a cerimônia de casamento em Copenhague, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria."
+  "subtitleReception": "Após a cerimônia de casamento em Copenhague, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria.",
+  "store": {
+    "buttonGift": "Eu quero presentear as noivas!",
+    "titleModal": "Presente para as noivas",
+    "textModal": "Se você deseja nos presentear, adoraríamos receber sua generosidade. Para facilitar o processo, criamos um formulário especial onde você pode nos contar o que e como gostaria de nos presentear. Basta seguir para o próximo passo e você será redirecionado para essa página. Agradecemos antecipadamente pelo seu carinho e consideração!",
+    "btnCancel": "Cancelar",
+    "btnContinue": "Continuar",
+    "form": {
+      "title": " Informações Pessoais",
+      "subtitle": "Por favor, nos informe quem você é.",
+      "name": "Nome",
+      "email": "Email (opcional)",
+      "phone": "Telefone",
+      "cart": "Quais itens você gostaria de nos presentear?",
+      "cartDescription": "Por favor, nos diga os itens que você gostaria de nos presentear. Se você não tiver certeza do que escolher, fique à vontade para nos presentear com um valor em dinheiro.",
+      "message": "Mensagem",
+      "messageDescription": "Se você deseja escrever uma mensagem para nós, fique à vontade para compartilhá-la aqui!",
+      "payTitle": "Como você gostaria de nos presentear?",
+      "payDescription": "Por favor, escolha a opção que melhor se adequa ao seu desejo de nos presentear.",
+      "payOptions": {
+        "option1": "Transferir para a nossa conta bancária",
+        "option2": "Selecionar e enviar presentes para o nosso endereço",
+        "option3": "Ainda estou decidindo! Entrarei em contato com vocês em breve."
+      },
+      "success": {
+        "title": "Obrigada!",
+        "description": "Sua generosidade significa muito para nós. Agradecemos antecipadamente pelo seu carinho e consideração!"
+      }
+    }
+  }
+
 }
