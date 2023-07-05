@@ -361,5 +361,82 @@
     "quantity": 1,
     "link": "https://www.power.no/kjoekkenmaskiner/kjoekkenapparater/toastjern/princess-multi-grill-4-in-1-smoerbroedgrill-soelv/p-1128112/?utm_source=prisjakt&utm_medium=cpc",
     "image": "https://media.power-cdn.net/images/h-6a7ff0148065322c54b9d7ffcf71307a/products/1128112/1128112_1_600x600_w_g.webp"
+  },
+  {
+    "nameNOK": "Hundeoverall",
+    "nameBRL": "Jaqueta Térmica",
+    "descriptionNOK": "Rukka Thermal Softshell Overall er et vindtett og vannavvisende hundedekken som holder hunden din tørr og varm i vinterkulden",
+    "descriptionBRL": "Rukka Thermal Softshell Overall é uma capa de cachorro à prova de vento e resistente à água que mantém seu cão seco e quente no frio do inverno.",
+    "priceNOK": 469,
+    "priceBRL": 213,
+    "quantity": 1,
+    "link": "https://www.musti.no/rukka-thermal-softshell-overall-svart?40831",
+    "image": "https://get.musti.media/shops/mno/resources/ftp/productpage/22/rukka-thermal-softshell-overall-svart-22.jpg"
+  },
+  {
+    "nameNOK": "Smart pet feeder",
+    "nameBRL": "Alimentador inteligente para animais de estimação",
+    "descriptionNOK": "Xiaomi Smart Pet Food Feeder",
+    "descriptionBRL": "Alimentador Inteligente de Comida para Animais de Estimação da Xiaomi",
+    "priceNOK": 1290,
+    "priceBRL": 584,
+    "quantity": 1,
+    "link": "https://www.multicom.no/xiaomi-smart-pet-food-feeder/cat-p/c/p1003302983?gclid=CjwKCAjwqZSlBhBwEiwAfoZUIEVyPTI6FMCdy_Uti-fCoLmQVZtOAXCRZr3J0VmLsOQDmei0L510wxoClPgQAvD_BwE",
+    "image": ""
+  },
+  {
+    "nameNOK": "Yale Linus Smartlås",
+    "nameBRL": "Yale Linus Fechadura inteligente",
+    "descriptionNOK": "Elektronisk, smart dørlås",
+    "descriptionBRL": "Fechadura eletrônica e inteligente",
+    "priceNOK": 2646,
+    "priceBRL": 1199,
+    "quantity": 1,
+    "link": "https://www.prisjakt.no/product.php?p=5695131",
+    "image": "https://pricespy-75b8.kxcdn.com/product/standard/800/5695131.jpg"
+  },
+  {
+    "nameNOK": "IKEA Smartlys farger",
+    "nameBRL": "Lâmpada inteligente com cores",
+    "descriptionNOK": "IKEA Smartlys stor sokkel med farger,  E27",
+    "descriptionBRL": "IKEA Lâmpada inteligente de grande soquete com cores, E27",
+    "priceNOK": 199,
+    "priceBRL": 90,
+    "quantity": 1,
+    "link": "https://www.ikea.com/no/no/p/tradfri-led-paere-e27-806-lumen-smart-kan-dimmes-tradlost-farge-og-varmhvit-til-kaldhvit-globe-70439158/",
+    "image": "https://www.ikea.com/no/no/images/products/tradfri-led-paere-e27-806-lumen-smart-kan-dimmes-tradlost-farge-og-varmhvit-til-kaldhvit-globe__0775977_pe757658_s5.jpg"
+  },
+  {
+  "nameNOK": "IKEA Smartlys hvit",
+  "nameBRL": "Lâmpada inteligente",
+  "descriptionNOK": "IKEA Smartlys stor sokkel, varm til kald hvit, kan dimmes,  E27",
+  "descriptionBRL": "IKEA Lâmpada inteligente de grande soquete,branco quente a branco frio, ajustável em intensidade, E27",
+  "priceNOK": 149,
+  "priceBRL": 68,
+  "quantity": 2,
+  "link": "https://www.ikea.com/no/no/p/tradfri-led-paere-e27-1055-lumen-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit-globe-40486783/",
+  "image": "https://www.ikea.com/no/no/images/products/tradfri-led-paere-e27-1055-lumen-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit-globe__0773338_pe756272_s5.jpg"
+  },
+  {
+    "nameNOK": "IKEA Smartlys GU10",
+    "nameBRL": "IKEA iluminação inteligente, GU10",
+    "descriptionNOK": "Fjernkontrollsett, smart kan dimmes trådløst/varmhvit til kaldhvit, GU10",
+    "descriptionBRL": "Conjunto de controle remoto, inteligente, com ajuste de intensidade sem fio, de luz branco quente a branco frio, GU10",
+    "priceNOK": 579,
+    "priceBRL": 262,
+    "quantity": 2,
+    "link": "https://www.ikea.com/no/no/p/tradfri-fjernkontrollsett-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit-20495910/",
+    "image": "https://www.ikea.com/no/no/images/products/tradfri-fjernkontrollsett-smart-kan-dimmes-tradlost-varmhvit-til-kaldhvit__1008883_pe827360_s5.jpg"
+  },
+  {
+    "nameNOK": "Kullgrill",
+    "nameBRL": "Churrasqueira a carvão",
+    "descriptionNOK": "Weber Bar B-Kettle kullgrill 47 cm",
+    "descriptionBRL": "Weber Bar B-Kettle churrasqueira a carvão 47 cm",
+    "priceNOK": 1500,
+    "priceBRL": 680,
+    "quantity": 1,
+    "link": "https://www.obsbygg.no/hage-og-utemiljo/grill/kullgriller/2097785?v=ObsBygg-77924003202",
+    "image": "https://www.obsbygg.no/globalassets/productimages/713140_77924003202_3.png"
   }
 ]
