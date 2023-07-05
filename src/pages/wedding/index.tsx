@@ -7,6 +7,8 @@ import noTranslations from '@/locales/no.json'
 import Countdown from '@/components/countdownWedding'
 import Invitation from '@/components/invitation'
 import { Translation } from '@/@types/pages'
+import { AiFillGift } from 'react-icons/ai'
+import Link from 'next/link'
 
 function Wedding() {
   const [language, setLanguage] = useState('pt-BR')
@@ -66,6 +68,21 @@ function Wedding() {
 
       <div className="py-10">
         <Countdown language={language} />
+      </div>
+
+      <div
+        className={'flex items-center justify-center text-sm font-bold py-4'}
+      >
+        <Link href={'/store-wishlist'}>
+          <div
+            className={
+              'px-4 py-2 bg-[var(--secondary-color)] text-white rounded-lg hover:bg-[var(--secondary-color-dark)] cursor-pointer shadow-sm shadow-gray-950'
+            }
+          >
+            <AiFillGift size={30} className={'inline'} />
+            <span> Gift List!</span>
+          </div>
+        </Link>
       </div>
 
       <Invitation
