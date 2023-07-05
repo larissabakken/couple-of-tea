@@ -5,8 +5,17 @@ import Link from 'next/link'
 import Products from '@/locales/products.json'
 import { BiWindowClose } from 'react-icons/bi'
 import { GiExpand } from 'react-icons/gi'
+
 export default function Shelf({ language }: any) {
-  const [modalOpenDetails, setModalOpenDetails] = useState(false)
+  const [modalOpenIndex, setModalOpenIndex] = useState<number | null>(null)
+
+  const openModal = (index: number) => {
+    setModalOpenIndex(index)
+  }
+
+  const closeModal = () => {
+    setModalOpenIndex(null)
+  }
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-18 sm:px-6 sm:py-16 lg:max-w-6xl lg:px-8 h-full">
@@ -19,7 +28,7 @@ export default function Shelf({ language }: any) {
                   src={product.image}
                   width={200}
                   height={200}
-                  alt={product.nameNOK}
+                  alt={language === 'pt-BR' ? product.nameBR : product.nameNOK}
                   className="h-full w-full object-cover p-4"
                 />
               </div>
@@ -40,24 +49,27 @@ export default function Shelf({ language }: any) {
                 </div>
               </div>
 
-              <div className="py-2 text-[var(--primary-color-dark)] hover:text-[var(--primary-color)] cursor-pointer flex justify-start items-center">
-                <GiExpand
-                  className="inline mr-2"
-                  size={22}
-                  onClick={() => setModalOpenDetails(true)}
-                />
+              <div
+                className="py-2 text-[var(--primary-color-dark)] hover:text-[var(--primary-color)] cursor-pointer flex justify-start items-center"
+                onClick={() => openModal(index)}
+              >
+                <GiExpand className="inline mr-2" size={22} />
                 {language === 'pt-BR'
                   ? 'Ver mais detalhes'
                   : 'Se flere detaljer'}
               </div>
             </div>
-            <Modal isOpen={modalOpenDetails} key={index}>
+            <Modal isOpen={modalOpenIndex === index} key={index}>
               <div className="py-2 mb-2 max-w-2xl">
                 <div className="flex justify-between">
-                  <h2 className="text-lg">Detalhes do Produto</h2>
+                  <h2 className="text-lg">
+                    {language === 'pt-BR'
+                      ? 'Detalhes do Produto'
+                      : 'Produktdetaljer'}
+                  </h2>
                   <button
                     className="text-red-600 hover:text-red-500 inline"
-                    onClick={() => setModalOpenDetails(false)}
+                    onClick={closeModal}
                   >
                     <BiWindowClose size={22} />
                   </button>

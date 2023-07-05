@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import Shelf from '@/components/shelf'
 import ptTranslations from '@/locales/br.json'
 import noTranslations from '@/locales/no.json'
+import Modal from '@/components/modal'
+import { BiWindowClose } from 'react-icons/bi'
+import Link from 'next/link'
+import { GiExpand } from 'react-icons/gi'
 
 export default function StoreWishlist() {
   const [language, setLanguage] = useState('pt-BR')
+  const [modalOpen, setModalOpen] = useState(false)
 
   const translations: any = {
     'pt-BR': ptTranslations,
@@ -37,7 +42,10 @@ export default function StoreWishlist() {
             />
           </button>
         </div>
-        <button className="text-white bg-[var(--primary-color-dark)] py-2 px-4 rounded-xl hover:bg-[var(--primary-color)] shadow-gray-950 shadow-sm">
+        <button
+          onClick={() => setModalOpen(true)}
+          className="text-white bg-[var(--primary-color-dark)] py-2 px-4 rounded-xl hover:bg-[var(--primary-color)] shadow-gray-950 shadow-sm"
+        >
           {t.store.buttonGift}
         </button>
       </div>
@@ -46,10 +54,34 @@ export default function StoreWishlist() {
       </div>
 
       <div className="p-8">
-        <button className="text-white bg-[var(--primary-color-dark)] py-2 px-4 rounded-xl hover:bg-[var(--primary-color)] shadow-gray-950 shadow-sm">
+        <button
+          onClick={() => setModalOpen(true)}
+          className="text-white bg-[var(--primary-color-dark)] py-2 px-4 rounded-xl hover:bg-[var(--primary-color)] shadow-gray-950 shadow-sm"
+        >
           {t.store.buttonGift}
         </button>
       </div>
+
+      <Modal isOpen={modalOpen}>
+        <div className="py-2 mb-2 max-w-2xl">
+          <div className="flex justify-between">
+            <h2 className="text-lg">
+              {language === 'pt-BR' ? 'Detalhes do Produto' : 'Produktdetaljer'}
+            </h2>
+            <button
+              className="text-red-600 hover:text-red-500 inline"
+              onClick={() => setModalOpen(false)}
+            >
+              <BiWindowClose size={22} />
+            </button>
+          </div>
+          <div className="border-pink-600 border-2 my-2" />
+
+          <p>
+            <strong>Link:</strong>
+          </p>
+        </div>
+      </Modal>
     </div>
   )
 }
