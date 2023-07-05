@@ -7,7 +7,7 @@ import { BiWindowClose } from 'react-icons/bi'
 import { GiExpand } from 'react-icons/gi'
 
 interface ShelfProps {
-  language: string
+  language: string | 'pt-BR' | 'no-NO'
 }
 
 export default function Shelf({ language }: ShelfProps) {

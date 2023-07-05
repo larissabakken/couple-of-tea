@@ -29,7 +29,7 @@ export default function Form() {
 
     try {
       await fetch('/api/email', { method: 'POST', body: text })
-      await router.push('/wedding')
+      await router.push('/success')
       showToast(
         `${t.store.form.success.title}, ${t.store.form.success.description}`,
       )
