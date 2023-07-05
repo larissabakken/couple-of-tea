@@ -28,7 +28,6 @@ const Invitation: React.FC<InvitationProps> = ({
   invite,
   language,
 }) => {
-  const [isOpenCeremony, setIsOpenCeremony] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
   const [countdown, setCountdown] = useState(5)
@@ -90,10 +89,10 @@ const Invitation: React.FC<InvitationProps> = ({
 
                           <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-1">
                             {language === 'pt-BR'
-                              ? '29 de Julho as 14:00, será após o casamento'
+                              ? '29 de Julho as 11am, será após o casamento'
                               : language === 'en-US'
-                              ? 'July 29th at 2:00 PM, will be after the wedding'
-                              : '29. juli kl 14:00, vil være etter bryllupet'}
+                              ? 'July 29th at 4:00 PM, will be after the wedding'
+                              : '29. juli kl 4:00 PM, vil være etter bryllupet'}
                           </dd>
                         </>
                       )}
