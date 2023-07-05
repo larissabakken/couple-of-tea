@@ -5,12 +5,11 @@ import ptTranslations from '@/locales/br.json'
 import noTranslations from '@/locales/no.json'
 
 import Invitation from '@/components/invitation'
-import { Translation } from '@/@types/pages'
 
 function WeddingReception() {
   const [language, setLanguage] = useState('pt-BR')
 
-  const translations: Translation = {
+  const translations: any = {
     'en-US': enTranslations,
     'pt-BR': ptTranslations,
     'no-NO': noTranslations,

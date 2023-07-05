@@ -14,5 +14,9 @@
   "inviteCerimony": "Vennligst bli med oss for vår bryllupsseremoni.",
   "inviteReception": "Vennligst bli med oss for et feiringmåltid kl 16.00",
   "titleReception": "Til mottakelse: Du er invitert!",
-  "subtitleReception": "Etter vielsen i Helsingør vil vi fortsette feiringen på en restaurant i København, omgitt av våre nærmeste venner. Ditt nærvær ville bety mye for oss i denne spesielle dagen fylt med kjærlighet og glede."
+  "subtitleReception": "Etter vielsen i Helsingør vil vi fortsette feiringen på en restaurant i København, omgitt av våre nærmeste venner. Ditt nærvær ville bety mye for oss i denne spesielle dagen fylt med kjærlighet og glede.",
+  "store": {
+    "buttonGift": "I want to give the brides a gift!"
+  }
+
 }

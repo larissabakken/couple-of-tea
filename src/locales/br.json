@@ -14,5 +14,9 @@
   "inviteCerimony": "Por favor, junte-se a nós para a nossa cerimônia de casamento.",
   "inviteReception": "Por favor, junte-se a nós para uma comemoração após a cerimônia.",
   "titleReception": "Convite para a recepção",
-  "subtitleReception": "Após a cerimônia de casamento em Copenhague, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria."
+  "subtitleReception": "Após a cerimônia de casamento em Copenhague, continuaremos a celebração em um restaurante em Copenhague, cercados pelos nossos amigos mais próximos. Sua presença significaria muito para nós enquanto comemoramos esse dia especial repleto de amor e alegria.",
+  "store": {
+    "buttonGift": "Eu quero presentear as noivas!"
+  }
+
 }

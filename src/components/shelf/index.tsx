@@ -1,21 +1,12 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { HiOutlineArrowsPointingOut } from 'react-icons/hi2'
-import { TbShoppingCartPlus } from 'react-icons/tb'
 import Modal from '@/components/modal'
 import Link from 'next/link'
 import Products from '@/locales/products.json'
 import { BiWindowClose } from 'react-icons/bi'
-export default function Shelf() {
+import { GiExpand } from 'react-icons/gi'
+export default function Shelf({ language }: any) {
   const [modalOpenDetails, setModalOpenDetails] = useState(false)
-
-  async function openModalDetails() {
-    setModalOpenDetails(true)
-  }
-
-  async function closeModal() {
-    setModalOpenDetails(false)
-  }
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-18 sm:px-6 sm:py-16 lg:max-w-6xl lg:px-8 h-full">
@@ -36,15 +27,28 @@ export default function Shelf() {
               <div className="mt-4 flex flex-col">
                 <div>
                   <h3 className="text-[15px] text-gray-700 font-bold truncate">
-                    {product.nameNOK}
+                    {language === 'pt-BR' ? product.nameBR : product.nameNOK}
                   </h3>
                 </div>
 
                 <div>
                   <p className="my-1 text-[17px] text-gray-500 truncate">
-                    {product.descriptionNOK}
+                    {language === 'pt-BR'
+                      ? product.descriptionBR
+                      : product.descriptionNOK}
                   </p>
                 </div>
+              </div>
+
+              <div className="py-2 text-[var(--primary-color-dark)] hover:text-[var(--primary-color)] cursor-pointer flex justify-start items-center">
+                <GiExpand
+                  className="inline mr-2"
+                  size={22}
+                  onClick={() => setModalOpenDetails(true)}
+                />
+                {language === 'pt-BR'
+                  ? 'Ver mais detalhes'
+                  : 'Se flere detaljer'}
               </div>
             </div>
             <Modal isOpen={modalOpenDetails} key={index}>
@@ -53,23 +57,32 @@ export default function Shelf() {
                   <h2 className="text-lg">Detalhes do Produto</h2>
                   <button
                     className="text-red-600 hover:text-red-500 inline"
-                    onClick={closeModal}
+                    onClick={() => setModalOpenDetails(false)}
                   >
                     <BiWindowClose size={22} />
                   </button>
                 </div>
                 <div className="border-pink-600 border-2 my-2" />
                 <p>
-                  <strong>Produto:</strong> {product.nameBRL}
+                  <strong>
+                    {language === 'pt-BR' ? 'Produto:' : 'Produkt:'}
+                  </strong>
+                  {language === 'pt-BR' ? product.nameBR : product.nameNOK}
                 </p>
                 <p>
-                  <strong>Descrição:</strong> {product.descriptionBRL}
+                  <strong>
+                    {language === 'pt-BR' ? 'Descrição:' : 'Description'}
+                  </strong>
+                  {language === 'pt-BR'
+                    ? product.descriptionBR
+                    : product.descriptionNOK}
                 </p>
                 <p>
-                  <strong>R${product.priceBRL}</strong>
-                </p>
-                <p>
-                  <strong>Quantidade:</strong> {product.quantity}
+                  <strong>
+                    {language === 'pt-BR'
+                      ? `R$${product.priceBR}`
+                      : `Kr ${product.priceNOK}`}
+                  </strong>
                 </p>
                 <p>
                   <strong>Link:</strong>

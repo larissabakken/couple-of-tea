@@ -14,5 +14,9 @@
   "inviteCerimony": "Please join us for our wedding ceremony.",
   "inviteReception": "Join us in celebrating our wedding!",
   "titleReception": "Reception Invitation",
-  "subtitleReception": "After the wedding ceremony in Helsingør, we will be continuing the celebration at a restaurant in Copenhagen, surrounded by our closest friends. Your presence would mean the world to us as we commemorate this special day filled with love and joy."
+  "subtitleReception": "After the wedding ceremony in Helsingør, we will be continuing the celebration at a restaurant in Copenhagen, surrounded by our closest friends. Your presence would mean the world to us as we commemorate this special day filled with love and joy.",
+  "store": {
+    "buttonGift": "I want to give the brides a gift!"
+  }
+
 }
