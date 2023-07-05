@@ -317,5 +317,49 @@
     "quantity": 2,
     "link": "https://www.riachuelo.com.br/kit-colcha-dupla-face-casal-3-pecas-the-mandalorian-cinza-star-wars-14746980001_sku_sku",
     "image": "https://static.riachuelo.com.br/RCHLO/14746980001/portrait/5d1372f7412f85713409f13c66d6bf301528d795.jpg"
+  },
+  {
+    "nameNOK": "Badminton & Volleyball sett",
+    "nameBRL": "Kit de Badminton e Voleibol",
+    "descriptionNOK": "Badminton & Volleyball sett med nett",
+    "descriptionBRL": "Conjunto de Badminton e Voleibol",
+    "priceNOK": 399,
+    "priceBRL": 182,
+    "quantity": 1,
+    "link": "https://www.extra-leker.no/badminton-volleyball-sett",
+    "image": "https://www.extra-leker.no/media/catalog/product/cache/5de1f00fa447cfc16f8bf2e2f66c6102/n/t/nti-867515_1__226102__hb10cfaaf.jpg"
+  },
+  {
+    "nameNOK": "Cuscuseira",
+    "nameBRL": "Cuscuseira",
+    "descriptionNOK": "Kjele for å koke couscous",
+    "descriptionBRL": "Conjunto de Badminton e Voleibol",
+    "priceNOK": 478,
+    "priceBRL": 218,
+    "quantity": 1,
+    "link": "https://www.extra-leker.no/badminton-volleyball-sett",
+    "image": ""
+  },
+  {
+    "nameNOK": "Paninijern",
+    "nameBRL": "Grill",
+    "descriptionNOK": "Princess multi grill 4-in-1 smørbrødgrill sølv",
+    "descriptionBRL": "Princess Multi Grill 4-em-1 Sanduicheira Prateada",
+    "priceNOK": 1399,
+    "priceBRL": 637,
+    "quantity": 1,
+    "link": "https://www.power.no/kjoekkenmaskiner/kjoekkenapparater/toastjern/princess-multi-grill-4-in-1-smoerbroedgrill-soelv/p-1128112/?utm_source=prisjakt&utm_medium=cpc",
+    "image": "https://media.power-cdn.net/images/h-6a7ff0148065322c54b9d7ffcf71307a/products/1128112/1128112_1_600x600_w_g.webp"
+  },
+  {
+    "nameNOK": "Isbitmaskin",
+    "nameBRL": "Máquina de Cubos de Gelo",
+    "descriptionNOK": "En liten og kompakt isbitmaskin med høy kapasitet.",
+    "descriptionBRL": "Uma máquina de gelo pequena e compacta com alta capacidade.",
+    "priceNOK": 1399,
+    "priceBRL": 637,
+    "quantity": 1,
+    "link": "https://www.power.no/kjoekkenmaskiner/kjoekkenapparater/toastjern/princess-multi-grill-4-in-1-smoerbroedgrill-soelv/p-1128112/?utm_source=prisjakt&utm_medium=cpc",
+    "image": "https://media.power-cdn.net/images/h-6a7ff0148065322c54b9d7ffcf71307a/products/1128112/1128112_1_600x600_w_g.webp"
   }
 ]
