@@ -5,7 +5,6 @@ import noTranslations from '@/locales/no.json'
 import Modal from '@/components/modal'
 import { BiWindowClose } from 'react-icons/bi'
 import Link from 'next/link'
-import { GiExpand } from 'react-icons/gi'
 
 export default function StoreWishlist() {
   const [language, setLanguage] = useState('pt-BR')
