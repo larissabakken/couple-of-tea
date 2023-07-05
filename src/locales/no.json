@@ -34,7 +34,7 @@
       "payTitle": "Hvordan ønsker du å gi oss gaven?",
       "payDescription": "Vennligst velg den beste måten å gi oss gaven på.",
       "payOptions": {
-        "option1": "Overføre en gave til vår bankkonto",
+        "option1": "Overføre til vår bankkonto.",
         "option2": "Velge og sende gaver til vår adresse",
         "option3": "Jeg har ikke bestemt meg enda! Jeg vil kontakte dere snart."
       }

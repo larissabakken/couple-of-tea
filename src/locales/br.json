@@ -34,7 +34,7 @@
       "payTitle": "Como você gostaria de nos presentear?",
       "payDescription": "Por favor, escolha a opção que melhor se adequa ao seu desejo de nos presentear.",
       "payOptions": {
-        "option1": "Transferir uma doação para a nossa conta bancária",
+        "option1": "Transferir para a nossa conta bancária",
         "option2": "Selecionar e enviar presentes para o nosso endereço",
         "option3": "Ainda estou decidindo! Entrarei em contato com vocês em breve."
       }
