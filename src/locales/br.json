@@ -37,6 +37,10 @@
         "option1": "Transferir para a nossa conta bancária",
         "option2": "Selecionar e enviar presentes para o nosso endereço",
         "option3": "Ainda estou decidindo! Entrarei em contato com vocês em breve."
+      },
+      "success": {
+        "title": "Obrigada!",
+        "description": "Sua generosidade significa muito para nós. Agradecemos antecipadamente pelo seu carinho e consideração!"
       }
     }
   }

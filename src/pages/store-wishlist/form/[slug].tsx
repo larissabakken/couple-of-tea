@@ -1,17 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import ptTranslations from '@/locales/br.json'
 import noTranslations from '@/locales/no.json'
 import { useRouter } from 'next/router'
 import { useForm, SubmitHandler } from 'react-hook-form'
+import { useToast } from '@/hooks/useToast'
 
 export default function Form() {
   const router = useRouter()
+  const showToast = useToast()
+
   const language = router.query.slug as string
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<any>()
 
@@ -22,19 +24,20 @@ export default function Form() {
 
   const t = translations[language]
 
-  const handleEmail = async () => {
-    // try {
-    //   const response = await fetch('/api/email', { method: 'POST' })
-    //   if (response.ok) {
-    //     console.log('Email sent successfully')
-    //   } else {
-    //     console.error('Failed to send email:', response.status)
-    //   }
-    // } catch (error) {
-    //   console.error('Failed to send email:', error)
-    // }
+  const onSubmit: SubmitHandler<any> = async (data) => {
+    const text = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nGifts: ${data.cart}\nPayment: ${data.payOption}\n Message: ${data.message}`
+
+    try {
+      await fetch('/api/email', { method: 'POST', body: text })
+      await router.push('/wedding')
+      showToast(
+        `${t.store.form.success.title}, ${t.store.form.success.description}`,
+      )
+    } catch (error) {
+      console.error('Failed to send email:', error)
+      showToast('Failed', { type: 'error' })
+    }
   }
-  const onSubmit: SubmitHandler<any> = (data) => console.log(data)
 
   return (
     <div className="w-full min-h-[90vh] flex items-center justify-center">
