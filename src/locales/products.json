@@ -117,6 +117,7 @@
     "priceNOK": 657,
     "priceBRL": 300,
     "quantity": 1,
+    "quantitySold": 1,
     "link": "https://www.prisjakt.no/product.php?p=4993096",
     "image": "https://pricespy-75b8.kxcdn.com/product/standard/280/4993096.jpg"
   },
@@ -194,6 +195,7 @@
     "priceNOK": 3945,
     "priceBRL": 1790,
     "quantity": 2,
+    "quantitySold": 1,
     "link": "https://www.ikea.com/no/no/p/rodulf-arbeidsbord-sitte-sta-gra-hvit-s99326170/",
     "image": "https://www.ikea.com/no/no/images/products/rodulf-arbeidsbord-sitte-sta-gra-hvit__0799319_pe767525_s5.jpg"
   },
