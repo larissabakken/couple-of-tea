@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Products from '@/locales/products.json'
 import { BiWindowClose } from 'react-icons/bi'
 import { GiExpand } from 'react-icons/gi'
+import Soldout from '@/components/soldout'
 
 interface ShelfProps {
   language: string | 'pt-BR' | 'no-NO'
@@ -26,6 +27,7 @@ export default function Shelf({ language }: ShelfProps) {
       <div className="mt-6 grid grid-cols-1 gap-x-3 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
         {Products?.map((product, index) => (
           <div key={index}>
+            <Soldout />
             <div className="bg-gray-200 p-4 rounded-md shadow-sm hover:shadow-xl transition-shadow duration-500 h-full">
               <div className="w-full h-[20rem] bg-white rounded-lg pb-2">
                 <Image
