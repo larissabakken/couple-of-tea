@@ -13,7 +13,7 @@ function Travel() {
           <Image src="/assets/excited.gif" alt="br" width={200} height={200} />
         </div>
         <div>
-          <Countdown date={'June 8, 2023 12:00:00 GMT+0100'} />
+          <Countdown date={'December 19, 2023 17:00:00 GMT+0100'} />
         </div>
         <div className="flex justify-between w-[20rem]">
           <img src="/assets/br.svg" alt="br" className="w-[3rem] mx-2" />

@@ -1,31 +1,25 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import { AiFillGift, AiOutlineCloseCircle } from 'react-icons/ai'
+import { IoMdPhotos } from 'react-icons/io'
 import { CiMenuKebab } from 'react-icons/ci'
 import { RiLiveFill } from 'react-icons/ri'
 import { GiLovers } from 'react-icons/gi'
-import { FaGlassCheers } from 'react-icons/fa'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const wedding = [
   {
-    name: "You're invited to our wedding!",
-    description: 'Please join us for our wedding ceremony.',
+    name: 'Watch our wedding ceremony live!',
+    description: 'Recorded live on July 29, 2023.',
     href: '/wedding',
     icon: RiLiveFill,
   },
   {
-    name: "You're invited to our celebratory meal!",
-    description: 'Please join us for a celebratory meal.',
-    href: '/wedding-reception',
-    icon: FaGlassCheers,
-  },
-  {
-    name: 'Wedding Gift List',
-    description: 'Check out our registry to give us a special gift!',
-    href: '/store-wishlist',
-    icon: AiFillGift,
+    name: 'Pictures and moments',
+    description: 'See our pictures and moments.',
+    href: '/memories',
+    icon: IoMdPhotos,
   },
 ]
 
@@ -114,10 +108,10 @@ export default function Example() {
             Next Travel
           </Link>
           <Link
-            href="#"
+            href="calendar"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Memories
+            Christmas Calendar
           </Link>
         </Popover.Group>
       </nav>
@@ -186,10 +180,10 @@ export default function Example() {
                   Next Travel
                 </Link>
                 <Link
-                  href="/memories"
+                  href="/calendar"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900"
                 >
-                  Memories
+                  Christmas Calendar
                 </Link>
               </div>
             </div>
