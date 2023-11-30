@@ -202,7 +202,7 @@ const Calendar = () => {
               ) : (
                 <>
                   <p className="my-2">{item.gift}</p>
-                  <p className={'text-[5px]'}>{item.description}</p>
+                  <p className={'text-sm md:text-[11px]'}>{item.description}</p>
                 </>
               )}
             </div>
