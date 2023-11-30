@@ -187,7 +187,7 @@ const Calendar = () => {
 
   return (
     <div className="bg-christmas h-full bg-cover bg-center py-16 px-8">
-      <div className="grid grid-cols-7 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-7 gap-4">
         {calendarDates.map((item: any) => (
           <div key={item.day} className="p-4 border border-gray-300 bg-white">
             <p className="text-xl font-bold">{item.day}</p>
