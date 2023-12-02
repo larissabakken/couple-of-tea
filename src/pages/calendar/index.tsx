@@ -9,13 +9,13 @@ const Calendar = () => {
     },
     {
       day: 2,
-      gift: 'Artist',
-      description: 'Proof that you are the artist among us.',
+      gift: 'Letter',
+      description: 'Read the letter I wrote to you.',
     },
     {
       day: 3,
-      gift: 'Letter',
-      description: 'Read the letter I wrote to you.',
+      gift: 'Artist',
+      description: 'Proof that you are the artist among us.',
     },
     {
       day: 4,
@@ -192,7 +192,7 @@ const Calendar = () => {
           <div key={item.day} className="p-4 border border-gray-300 bg-white">
             <p className="text-xl font-bold">{item.day}</p>
             <div className="flex items-center justify-center flex-col">
-              {item.day > 1 ? (
+              {item.day > today.getDate() ? (
                 <>
                   <img
                     src="https://media1.giphy.com/media/J8dzvb7lj7EDvMUDXc/giphy.gif?cid=ecf05e47uqfqmt5stff8uot1npu9ogcza68wuw3dl491nx91&ep=v1_stickers_search&rid=giphy.gif&ct=s"
