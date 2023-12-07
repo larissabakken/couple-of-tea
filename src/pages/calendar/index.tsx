@@ -39,21 +39,20 @@ const Calendar = () => {
     },
     {
       day: 8,
-      gift: 'Sessão de Leitura',
+      gift: 'Bucket List',
       description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+        'make a list of things you want to do together in the next 5 years. * 1 item per year *',
     },
     {
       day: 9,
-      gift: 'Sessão de Leitura',
+      gift: 'Bucket list',
       description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+        'Make a list of things do you want to do before you die. * 10 items *',
     },
     {
       day: 10,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Book Club',
+      description: 'Book discuss',
     },
     {
       day: 11,
