@@ -56,51 +56,45 @@ const Calendar = () => {
     },
     {
       day: 11,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Architecture',
+      description: 'Drawing our future house.',
     },
     {
       day: 12,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Architecture',
+      description: 'Choosing the style/design of our future house.',
     },
     {
       day: 13,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Book Club',
+      description: 'Discuss the chapters.',
     },
     {
       day: 14,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Christmas movie session',
+      description: 'Watching a Christmas movie together.',
     },
     {
       day: 15,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Bucket List 2024 together',
+      description: 'Make a list of things you want to do together in 2024.',
     },
     {
       day: 16,
-      gift: 'Sessão de Leitura',
+      gift: 'Recipe',
       description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+        'Choose a recipe and cook together. * I will cook with you *',
     },
     {
       day: 17,
-      gift: 'Sessão de Leitura',
-      description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+      gift: 'Norwegian',
+      description: 'Trying to speak Norwegian.',
     },
     {
       day: 18,
-      gift: 'Sessão de Leitura',
+      gift: 'Sing a song',
       description:
-        'Escolham um livro para ler juntos e discutam capítulo por capítulo.',
+        'Choose a song to sing together. * I will sing with you, so learn how to play *',
     },
     {
       day: 19,
@@ -110,21 +104,18 @@ const Calendar = () => {
     },
     {
       day: 20,
-      gift: 'Kisses and Hugs',
-      description:
-        "After pick up me at the airport, I'll give you a lot of kisses and hugs.",
+      gift: 'Food',
+      description: "* I'll cook to you *",
     },
     {
       day: 21,
-      gift: 'Kisses and Hugs',
-      description:
-        "After pick up me at the airport, I'll give you a lot of kisses and hugs.",
+      gift: 'Christmas Photo Session',
+      description: "We'll take a Christmas photo session together",
     },
     {
       day: 22,
-      gift: 'Kisses and Hugs',
-      description:
-        "After pick up me at the airport, I'll give you a lot of kisses and hugs.",
+      gift: 'Massage',
+      description: "I'll give you a massage.",
     },
     {
       day: 23,
