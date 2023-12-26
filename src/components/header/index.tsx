@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import { AiFillGift, AiOutlineCloseCircle } from 'react-icons/ai'
+import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { IoMdPhotos } from 'react-icons/io'
 import { CiMenuKebab } from 'react-icons/ci'
 import { RiLiveFill } from 'react-icons/ri'
@@ -107,12 +107,12 @@ export default function Example() {
           >
             Next Travel
           </Link>
-          <Link
-            href="calendar"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
-            Christmas Calendar
-          </Link>
+          {/*<Link*/}
+          {/*  href="calendar"*/}
+          {/*  className="text-sm font-semibold leading-6 text-gray-900"*/}
+          {/*>*/}
+          {/*  Christmas Calendar*/}
+          {/*</Link>*/}
         </Popover.Group>
       </nav>
       <Dialog
@@ -179,12 +179,12 @@ export default function Example() {
                 >
                   Next Travel
                 </Link>
-                <Link
-                  href="/calendar"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900"
-                >
-                  Christmas Calendar
-                </Link>
+                {/*<Link*/}
+                {/*  href="/calendar"*/}
+                {/*  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900"*/}
+                {/*>*/}
+                {/*  Christmas Calendar*/}
+                {/*</Link>*/}
               </div>
             </div>
           </div>
